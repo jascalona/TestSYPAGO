@@ -1,0 +1,3347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="15048116-659d-40cf-808a-d5b0ccdfef58" activeEnvironment="Default" name="TestSYPAGO" resourceRoot="" soapui-version="5.9.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="96435494-37de-43a4-8009-f08662812bea" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.0.62.20:8086" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.0.62.20:8086</con:endpoint></con:endpoints><con:resource name="Init" path="/sypago/gateway/api/v1/init" id="6d5157c0-e90b-4323-9511-ba59fd07a01b"><con:settings/><con:parameters/><con:method name="Init 1" id="726b6d09-ec23-4e95-a23b-b12060c3f296" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>202</con:status><con:params/><con:element xmlns:init="http://10.0.62.20/sypago/gateway/api/v1/init">init:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "11111111111",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "Soluciones Sycom",
+    "Id": "J404579427",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#codBanco}3731447437032948"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "Usuario Externo",
+    "Id": "V21290681",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CELE",
+      "Id": "04126043516"
+    }
+  },
+  "ReceivingBankCode": "0102",
+  "Amount": {
+    "Ccy": "${#Project#Ccy}",
+    "Amt": 12639.5
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "002",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}"
+        }
+    ]
+}</con:request><con:credentials><con:username/><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="3f01c580-8128-4844-bd5d-a5a175dd69bb" name="Debito"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="392e08df-e5a4-4bfc-a21c-1dcc7ac1aced" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadCustom" id="9a485430-b933-4ac3-ac83-68a5d2154f4d"><con:settings/><con:config><script>/***********SCRIPT LOAD EMISOR********/
+import imports.Index;
+import imports.Cellxlsx;
+import java.util.Random;
+
+def excelFilePath = "C:\\Import.xlsx" //ruta absoluta
+
+def propertiesStepNameEmi = "Emisor" //Properties EMISOR
+def propertiesStepNameRec = "Receptor" //Properties RECEPTOP
+
+/*********Carga de propiedades**********/
+def loadPropertiesEmi = testRunner.testCase.getTestStepByName(propertiesStepNameEmi);
+def loadPropertiesRec = testRunner.testCase.getTestStepByName(propertiesStepNameRec);
+
+//Condicion para evaluar Emi
+if(loadPropertiesEmi == null){
+	log.info("Error,: el paso de prueba al que intenta cargar valores no fue encontrado '${propertiesStepNameEmi}' ")	
+	return //Terminar la ejecucion en caso de que no se encuentre el paso 
+}
+
+//Condicional para evaluar Rec
+if(loadPropertiesRec == null){
+	log.info("Error: el paso de prueba: '${propertiesStepNameRec}' al que intenta cargar valores no fue encontrado ")
+	return //Terminar la ejecucion en caso de q no se encuentre el paso 	
+}
+
+/********Lectura de Datos Excel Aplicando el metodo Random******************/
+
+//variable que identifica la importacion de las filas en la propiedad 'Emisor'
+def registroEmi = Index.readExcelData(excelFilePath) 
+
+context.ListEmisor = registroEmi;
+
+log.info "----------------------" + context.ListEmisor [0].nombre
+
+
+//variable que indentifica la impor de las filas en las propiedad 'Rec'
+def registroRec = Index.readExcelData(excelFilePath)
+
+log.info("--------Datos Importados: (${registroEmi.size()}) registros para Emisor--------") //Imprimir los registros cargados en contexto Emi
+log.info("\n--------Datos Importados: (${registroRec.size()}) registros para Receptor--------") //Imprimir los registros cargados en contexto Rec
+
+//Condicional que evalua si hay registros en el formato excel
+if(registroEmi .isEmpty()){
+	log.info("Error: no se encontraron datos en su hoja de excel, verifique he intente de nuevo")
+	return //Terminar la ejecucion
+}
+
+/*****Incorporacion de random para Emisor********/
+def randomIndex = new Random().nextInt(registroEmi.size()); //Instanciar el metodo random
+log.info("Indice de fila generado para Emisor:   ${randomIndex} ")
+
+/*******Asignacion de propiedades Emi******/
+def  selectedRow = registroEmi.get(randomIndex)
+
+//Acceder directamente a los atributos de la clase Cellxlsx ademas de contextualizar los datos en las properties Emi
+loadPropertiesEmi .setPropertyValue("id", selectedRow .getId())
+loadPropertiesEmi .setPropertyValue("nombre", selectedRow .getNombre())
+loadPropertiesEmi .setPropertyValue("codBanco", selectedRow .getCodBanco())
+loadPropertiesEmi .setPropertyValue("tld", selectedRow .getTlf())
+loadPropertiesEmi .setPropertyValue("cuenta", selectedRow .getCuenta())
+
+//Imprimir resultados en los log 
+log.info("---------Datos de la fila con índice: ${randomIndex} cargados exitosamente en la propertie Emisor:------")
+log.info("ID: ${selectedRow.getId()}")
+log.info("Nombre: ${selectedRow.getNombre()}")
+log.info("CodBanco: ${selectedRow.getCodBanco()}")
+log.info("Teléfono: ${selectedRow.getTlf()}")
+log.info("Cuenta: ${selectedRow.getCuenta()}")
+
+/*****Instancia random para Receptor********/
+def randomIndexRec = new Random().nextInt(registroRec.size());
+log.info("Indice de fila generado para Receptor:   ${randomIndexRec} ")
+
+/*******Asignacion de propiedades Rec******/
+def selectedRowRec = registroRec.get(randomIndexRec); //Instanciar el metodo random
+//Acceder directamente a los atributos de la clase Cellxlsx ademas de contextualizar los datos en las properties Rec
+loadPropertiesRec .setPropertyValue("id", selectedRowRec .getId())
+loadPropertiesRec .setPropertyValue("nombre", selectedRowRec .getNombre())
+loadPropertiesRec .setPropertyValue("codBanco", selectedRowRec .getCodBanco())
+loadPropertiesRec .setPropertyValue("tlf", selectedRowRec .getTlf())
+loadPropertiesRec .setPropertyValue("cuenta", selectedRowRec .getCuenta())
+
+context.myVariable = "";
+
+//Imprimir resultados en los log 
+log.info("---------Datos de la fila con índice: ${randomIndex} cargados exitosamente en la propertie Receptor:------")
+log.info("ID: ${selectedRowRec.getId()}")
+log.info("Nombre: ${selectedRowRec.getNombre()}")
+log.info("CodBanco: ${selectedRowRec.getCodBanco()}")
+log.info("Teléfono: ${selectedRowRec.getTlf()}")
+log.info("Cuenta: ${selectedRowRec.getCuenta()}")
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="ba0e857f-f176-4cd3-a9e0-658d5ba569f5"><con:settings/><con:config><script>log.info context.ListEmisor </script></con:config></con:testStep><con:testStep type="properties" name="Emisor" id="d90e188d-8a85-4ef5-a4fc-55599204a4d3"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>TrnasactionId</con:name><con:value>9729963677994</con:value></con:property><con:property><con:name>id</con:name><con:value>V13951863</con:value></con:property><con:property><con:name>nombre</con:name><con:value>Cliente Bancaribe Natural</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>tld</con:name><con:value/></con:property><con:property><con:name>cuenta</con:name><con:value>01140165101659096958</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="Receptor" id="4d7fdc95-a2f2-4b64-a87c-9834279970e7"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>id</con:name><con:value>J134837876</con:value></con:property><con:property><con:name>nombre</con:name><con:value>Cliente Bancaribe Juridico</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>tlf</con:name><con:value/></con:property><con:property><con:name>cuenta</con:name><con:value>01140172461720020412</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Init 1 - Request 1" id="95d36d88-f3a3-4479-b4e2-d3ccfa761174"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Init 1 - Request 1" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+    "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+    "EndToEndId": "",
+    "UserReferenceId": "N0007",
+    "SendingUser": {
+        "UserId": "9a9b0a06-3b93-4bbf-82bd-656308118f5b",
+        "Nm": "${#Project#Nm}",
+        "Id": "${#Project#id}",
+        "Schema": "0",
+        "Concept": "Tipo de sub-Producto 002 Otro Banco",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${#Project#CNTA}"
+        }
+    },
+    "SendingBankCode": "${#Project#codBanco}",
+    "ReceivingUser": {
+        "UserId": "",
+        "Nm": "${=context.ListEmisor [0].nombre}",
+        "Id": "${Receptor#id}",
+        "Schema": "0",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${Receptor#cuenta}"
+        }
+    },
+    "ReceivingBankCode": "${Receptor#codBanco}",
+    "Amount": {
+        "Ccy": "VES",
+        "Amt": 3
+    },
+    "PaymentType": "3",
+    "Product": "050",
+    "SubProduct": "003",
+    "PaymentKey": "",
+    
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "J0000003"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="ab10380b-b05f-4e63-809d-448644d613fe" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	//log.info Rsn
+	assert  Rsn== "MD21" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="GeneratoLabels" id="7f620b13-e603-4575-b0df-083a55404406"><con:settings/><con:config><script>import java.util.Random
+
+//Instanciar el metodo random
+Random randomTrnasactionId =new Random();
+
+//Rango de volumen 13 digitos
+long min = 1111111111111L;
+long max = 9999999999999L;
+
+//Calculo de rando de digitos
+long resulAletorio = randomTrnasactionId.nextLong(max - min +1) + min;
+
+/*******Cargar valor al contexto Properti Emisor*******/
+
+def loadTransactionId = testRunner.testCase.getTestStepByName("Emisor");
+
+//Validar que el paso de prueba este generado
+if(loadTransactionId == null){
+	log.info("Error, el paso de prueba que intenta llamar: ${loadTransactionId} no esta disponible, valide que este generado he intente de nuevo")
+	return //Finala la ejecucion de validacion
+}
+
+//Contextualizar TrnasactionId aplicando el metodo random: en la propertie Emisor
+loadTransactionId .setPropertyValue("TrnasactionId", "${resulAletorio}")
+
+log.info("El valor generado para TransactionId es: ${resulAletorio}")
+</script></con:config></con:testStep><con:testStep type="restrequest" name="Copy of Init 1 - Request 1" id="c5068ad4-2f6d-4f9b-be35-1153fccfc78d"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of Init 1 - Request 1" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+    "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+    "EndToEndId": "",
+    "UserReferenceId": "N0007",
+    "SendingUser": {
+        "UserId": "9a9b0a06-3b93-4bbf-82bd-656308118f5b",
+        "Nm": "${#Project#Nm}",
+        "Id": "${#Project#id}",
+        "Schema": "0",
+        "Concept": "Tipo de sub-Producto 002 Otro Banco",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${#Project#CNTA}"
+        }
+    },
+    "SendingBankCode": "${#Project#codBanco}",
+    "ReceivingUser": {
+        "UserId": "",
+        "Nm": "${Receptor#nombre}",
+        "Id": "J789456123",
+        "Schema": "0",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "01740130141304317074"
+        }
+    },
+    "ReceivingBankCode": "0174",
+    "Amount": {
+        "Ccy": "VES",
+        "Amt": 3
+    },
+    "PaymentType": "3",
+    "Product": "050",
+    "SubProduct": "003",
+    "PaymentKey": "",
+    
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "J0000003"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="ab10380b-b05f-4e63-809d-448644d613fe" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    //log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+   // log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    //log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+	def TxSts = jsonR.TrnStRp.TxSts
+	assert  TxSts == "RJCT"
+	log.info TxSts
+
+	
+	def Rns = jsonR.TrnStRp.Rns
+	log.info Rns
+	assert Rns == "AC00"
+	
+
+
+	</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="8cf501a2-8bfa-4b64-a490-3faefce96bec" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Caso Exitoso IBPs" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="Datos Bancaribe" id="7ec6d47a-d463-4227-bfc4-7845ed6b0d4a"><con:settings/><con:config><script>//SCRIPTS PARA PASAR A CONTEXTO GLOBAL LA DATA IMPORTADA CARGADA DESDE EXCEL APLICANDO EL METODO RANDOM
+
+/*
+*  Para invocar a las variables desde el msj JSON de forma statica haciendo se debe hacer referencia al numero del elemento deseado
+*  
+*  Ejm Statico de una etiqueta: "${=context.variableContextGlobal [0].nombre}"
+*  Ejm Dinamico de una etiqueta "${=context.variableContextGlobal [${context.}]}"	
+*/
+
+/***********SCRIPT RECEPTOR IBP BANCARIBE******************/
+import imports.Cellxlsx;
+import imports.Index;
+import java.util.Random;
+
+def excelFilePath = "C:\\Import.xlsx"; //Ruta absoluta
+
+def ReceptorBancaribe = Index.readExcelData(excelFilePath,0);
+
+/****Instancia Random****/
+def randomBancaribe = new Random().nextInt(ReceptorBancaribe.size()); //Definicion de las filas dentro de la hola
+log.info("Indice de fila generado: ${randomBancaribe}" );
+
+//Contextualizar Lista de variables globales
+context.listRecepBancaribe = ReceptorBancaribe;
+log.info(context.listRecepBancaribe); //.nombre[0] 
+
+//Contextualizar valor generado por el metodo random
+context.ListRandom = randomBancaribe;
+//log.info(context.ListRandom)
+
+
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="Datos IBPs" id="13c46b22-b839-4fbe-97d4-3618d2b2d65c"><con:settings/><con:config><script>//SCRIPTS PARA PASAR A CONTEXTO GLOBAL LA DATA IMPORTADA CARGADA DESDE EXCEL APLICANDO EL METODO RANDOM
+
+/***********SCRIPT RECEPTOR******************/
+import imports.Cellxlsx;
+import imports.Index;
+import java.util.Random;
+
+def excelFilePath = "C:\\Import.xlsx" //Ruta absoluta
+
+/*****Lectura del excel*******/
+//Definicion de el numero de hoja donde realiza extraera los datos
+def ReceptorIBPs = Index.readExcelData(excelFilePath, 1);
+
+/*********Instancia Random*************/
+// Corregido: Usar nextInt(bound) para generar un número aleatorio dentro del rango.
+def randomIBPs = new Random().nextInt(ReceptorIBPs.size()); //Define las filas dentro de la hoja
+log.info("Indice de fila generado: ${randomIBPs}")
+
+//Variable contextualizada global
+context.ListIBPs = ReceptorIBPs;
+log.info(context.ListIBPs); //.nombre[0]
+
+//Variable para contextualizar Lista random
+context.ListRandom = randomIBPs;
+log.info(context.ListRandom);</script></con:config></con:testStep><con:testStep type="groovy" name="GeneradorTransactionID" id="a350b7f5-f372-4072-9e28-c87babd4e4a7"><con:settings/><con:config><script>/************GENERADOR DE TRANSACTIONID CARACTERES ESPECIALES*****************/
+import java.util.Random;
+
+//Instanciar random
+Random idRandom = new Random();
+ //Rango de volumen 6
+ long min = 111111;
+ long max = 999999;
+ 
+//Calculo de random
+long resultadoRandom = idRandom.nextLong(max - min) + 1
+
+def caracterHead = "#^"
+def caracterFooter = "zY#"
+def transactionId = caracterHead + resultadoRandom + caracterFooter
+//log.info transactionId
+//CARGAR EL VALOR AL CONTEXTO GLOBAL
+context.transIdChars = transactionId;
+
+//APROVECHAMOS EL RANDOM Y GENERAMOS UN N# DE CNTRATO ALETORIO
+def charH = "C";
+def randomCMCN = charH + resultadoRandom;
+context.randomCmcn = randomCMCN;
+//log.info randomCMCN
+
+/********************GENERADOR DE TRANSACTION ID RANGO > 11******************************/
+//Instanciar Random
+Random idMayorRandom = new Random();
+
+//Rango de volumen 14
+long minI = 11111111111111;
+long maxI = 99999999999999;
+
+//Calculo del random
+long resultadoMayorRandom = idMayorRandom.nextLong(maxI - minI) + 1
+
+def complementoI = "zTwF"
+def complementoII = "Yz"
+def transactioIdMayor = complementoI + resultadoMayorRandom + complementoII;
+//log.info("TransactionId: ${transactioIdMayor}")\
+
+//CARGAR EL VALOR AL CONTEXTO GLOBAL
+context.transIdMayor = transactioIdMayor;
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="GeneradorStrings" id="87129c63-ffff-4bf4-b808-62cbd9aa9245"><con:settings/><con:config><script>/*********GENERADOR DE ESTRING > 16 PARA UserReference*********/
+import java.util.Random;
+import Labels.GeneratorUserReferenceId;
+
+//Variable para almacer el string
+def longitudGroovy = 20;
+
+//Llamamos al método estático directamente usando el nombre del paquete y la clase
+def codigoGenerado = Labels.GeneratorUserReferenceId.GeneratorChart(longitudGroovy)
+context.UserRefId = codigoGenerado; //Contexto
+
+
+/*****************GENERADOR DE STRINGS PARA Nm > 200*********/
+//Variable para almacenar el string de Nm
+def longitudNm = 351;
+
+//Llamado del metodo
+def generatorNm = Labels.GeneratorUserReferenceId.GeneratorChart(longitudNm);
+context.chartNm = generatorNm;</script></con:config></con:testStep><con:testStep type="restrequest" name="Iniciacion Debito 0114" id="a2c63658-7774-499e-9496-9500996daae7" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Iniciacion Debito 0114" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+    "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+    "EndToEndId": "",
+    "UserReferenceId": "N0007",
+    "SendingUser": {
+        "UserId": "9a9b0a06-3b93-4bbf-82bd-656308118f5b",
+        "Nm": "${#Project#Nm}",
+        "Id": "${#Project#id}",
+        "Schema": "0",
+        "Concept": "Tipo de sub-Producto 003 Otro Banco",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${#Project#CNTA}"
+        }
+    },
+    "SendingBankCode": "${#Project#codBanco}",
+    "ReceivingUser": {
+        "UserId": "",
+        "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+        "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+        "Schema": "0",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}"
+        }
+    },
+    "ReceivingBankCode": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "Amount": {
+        "Ccy": "VES",
+        "Amt": 1
+    },
+    "PaymentType": "3",
+    "Product": "050",
+    "SubProduct": "003",
+    "PaymentKey": "",
+    
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.listRecepBancaribe [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="ab10380b-b05f-4e63-809d-448644d613fe" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "MD21" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Iniciacion Debito Other IBPs" id="8129cd80-8893-46a2-a800-e34a5c4d45ac" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Iniciacion Debito Other IBPs" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-01 TransactionId Caracter \#$#$#$233" id="34e052ae-92c7-4614-9103-3e58ebce0236" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-01 TransactionId Caracter \#$#$#$233" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "%#${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(9)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="ab10380b-b05f-4e63-809d-448644d613fe" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(4000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "VE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-02  TransactionId \ rango > 11" id="b67a9151-d8bd-4693-b661-bbf1f7ccd6d1" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-02  TransactionId \ rango > 11" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+    "TransactionId": "${=context.transIdMayor}",
+    "EndToEndId": "",
+    "UserReferenceId": "N0007",
+    "SendingUser": {
+        "UserId": "9a9b0a06-3b93-4bbf-82bd-656308118f5b",
+        "Nm": "${#Project#Nm}",
+        "Id": "${#Project#id}",
+        "Schema": "0",
+        "Concept": "Tipo de sub-Producto 003 Otro Banco",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${#Project#CNTA}"
+        }
+    },
+    "SendingBankCode": "${#Project#codBanco}",
+    "ReceivingUser": {
+        "UserId": "",
+        "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+        "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+        "Schema": "0",
+        "Response": "0",
+        "Acct": {
+            "Tp": "CNTA",
+            "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+        }
+    },
+    "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+    "Amount": {
+        "Ccy": "VES",
+        "Amt": 2
+    },
+    "PaymentType": "3",
+    "Product": "050",
+    "SubProduct": "003",
+    "PaymentKey": "",
+    
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="ab10380b-b05f-4e63-809d-448644d613fe" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(3000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-03 EndToEndId" id="100914f7-eda5-471d-9605-72e17cb761e8" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-03 EndToEndId" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": null,
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-04 EndToEndId \ CodBanco diferente" id="156add7d-3ed3-4017-b4aa-13b33aef3fc8" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-04 EndToEndId \ CodBanco diferente" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "0013",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-06 UserReferenceId Caracter\$%^#*" id="bb240e2c-cac9-4826-b560-e84eb0b90b44" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-06 UserReferenceId Caracter\$%^#*" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "%^**-+${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "VE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-06 UserReferenceId \ > 16" id="70f6128f-9e03-4e5c-b239-a233602f6fd9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-06 UserReferenceId \ > 16" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=context.UserRefId}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "VE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-08 Nm \Caracteres *&amp;$%!/" id="883b3d07-8dc8-4c8a-a49d-78f24946186d" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-08 Nm \Caracteres *&amp;$%!/" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "Jk7ajh#%^$*&amp;//?|",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "#%^$Ma%628nuel",
+    "Id": "${=context.listRecepBancaribe [${context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.listRecepBancaribe [${context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.listRecepBancaribe [${context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.listRecepBancaribe [${context.ListRandom}].CMCN}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "VE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-09 Nm \ rango > 200" id="a6fde415-90b0-4f1c-b595-73d29bfbce7b" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-09 Nm \ rango > 200" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.chartNm}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "VE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-10 Nm \ NULL" id="15e3ea2e-8f79-4c2e-b938-fd1d548c3a15" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-10 Nm \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": null,
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(4000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "VE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-11 Nm \Vacio" id="8b4ebbc2-7aa4-4c6e-9cfb-2654f48ecd9c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-11 Nm \Vacio" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RCJT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-12 Id \No permitido" id="adb6c9ea-77a5-4b92-9d0e-a7f6554bbf42" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-12 Id \No permitido" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "M404579427",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "BE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-13 Id \ Icorrecto" id="f3e5cd87-be03-4bc7-a484-45809b69cde5" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-13 Id \ Icorrecto" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "J40457942777777",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "BE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-14 Schema\ Caracter #^&amp;*" id="efe748a3-b22a-47c4-8286-5f87b1db8d12" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-14 Schema\ Caracter #^&amp;*" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "#1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-15 Schema\ > A un Digito" id="48b91edc-d96d-494a-8b2d-c84d779cbd96" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-15 Schema\ > A un Digito" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1364777999874552",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-16 Concept \ NULL" id="b52b2412-055d-4733-bd06-fb4b77067371" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-16 Concept \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": null,
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": null,
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-17 Concept \ Vacio" id="149923d2-59b4-4a68-9a2f-0ee380f0182c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-17 Concept \ Vacio" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "HOLASSSS",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-18 Concept \ > 100" id="c9cb39d4-8878-4998-ba4f-b6fdc6a8e7a2" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-18 Concept \ > 100" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "${=context.chartNm}",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-19 Concept \ Caracter $%&amp;Ñáíó&quot;?¡¿'" id="bb4f54bc-e508-4f38-8595-1c20785eb574" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-19 Concept \ Caracter $%&amp;Ñáíó&quot;?¡¿'" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "$%&amp;Ñáíó?¡¿'",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-20 Response \NULL" id="4aa8356f-3b5d-479a-8d8c-9146913ea988" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-20 Response \NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": null,
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-21 Response \ > 30 Numeros" id="00601026-9e3e-41ed-b13c-4ed157f94302" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-21 Response \ > 30 Numeros" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "102547896542333021458745896587452102145625477789857",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-22 TAcc TP \ Tipo de TP no tipado" id="5da5eade-736c-4838-8760-b26e80f99579" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-22 TAcc TP \ Tipo de TP no tipado" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CFRT",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-23 Acct.Tp \NULL" id="ccbdd314-f297-4c24-bb2b-65f3567c9da6" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-23 Acct.Tp \NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": null,
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-24 Acct.Tp \ > 30 chart" id="d239019a-40b3-46dd-958e-3b7a61ed63cd" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-24 Acct.Tp \ > 30 chart" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "${=context.chartNm}",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "DS02" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-25 Acct. Id \ NULL" id="4a318b7c-32e2-4a87-a7bc-82c4c8b3b2f4" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-25 Acct. Id \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": null
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "BE01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-26 Acct. Id \ Caracteres $%&amp;Ñáíó&quot;?¡¿'" id="cb30f834-6a1f-4205-a8b6-d6c6f0c4f437" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-26 Acct. Id \ Caracteres $%&amp;Ñáíó&quot;?¡¿'" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "%^#${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AC01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-27 Acct. Id \ Log > 30" id="d5d45a14-0cad-41b9-adc3-3d241eced48e" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-27 Acct. Id \ Log > 30" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}123456789101112131415"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AC01" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-28 SendingBankCode \ NULL" id="c9e70e1f-95b0-4f4a-91b4-c77c1f7151f1" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-28 SendingBankCode \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": null,
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-29 SendingBankCode \ Log > 8" id="3e62a803-8af6-404e-9001-1f77b911ce3f" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-29 SendingBankCode \ Log > 8" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "0114234569",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "ASA" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-30 SendingBankCode \ Vacio" id="781cecf5-a4b1-4f7c-b3f1-38c1638842c4" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-30 SendingBankCode \ Vacio" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "ASA" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-31 Amount.Ccy \ COD Invalido" id="aae30e17-a3d1-439c-b1a0-ad7745a92ebf" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-31 Amount.Ccy \ COD Invalido" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "ZSQ",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AC09" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-32 Amount.Ccy \ NULL" id="29a01e78-9c5e-4a84-b521-f2a2556a0a69" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-32 Amount.Ccy \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": null,
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AC09" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-33 Amount.Ccy \ COD > 3 Caracter" id="eb718954-118e-40bd-a709-196450f5a787" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-33 Amount.Ccy \ COD > 3 Caracter" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VESDDDD",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "AC09" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-34 Product \ NULL" id="f35f6f75-bc8a-4b4a-b2fd-7b7ae97d875c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-34" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": null,
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "FF05" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-35 Product \ Product > 7 digitos" id="9c724428-b32e-4f1d-8de0-315404c29153" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-35 Product \ Product > 7 digitos" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "05076548",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "FF05" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-36 SubProduct \ NULL" id="e33a828e-b786-4a3d-a613-0e014b930eec" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-36 SubProduct \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": null,
+  "SubProduct": "08651",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "FF07" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-37 SubProduct \ SubProduct > 7 digitos" id="114cb030-6ec0-465b-9ceb-956bfe7a0b42" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-37 SubProduct \ SubProduct > 7" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "58745214",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	assert  Rsn== "FF07" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-38 PaymentKey \ NULL" id="0d871f39-35ec-4bd2-b118-228c736b4b25" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-38 PaymentKey \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": null,
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-39 PaymentKey \ $Caracter %^#" id="e5dbc734-e033-4ddf-9702-e4fbbcaab06c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-39 PaymentKey \ $Caracter %^#" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "%^#K_&amp;91",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>sycom_gateway_user</con:value></con:property><con:property><con:name>password</con:name><con:value>3b17-0e38206Pae-88_@fb8476dff92f271A7C</con:value></con:property><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694</con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560645604049638</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
