@@ -26,6 +26,10 @@ public class GeneratorNum {
 
     public static void main(String[] args) {
         GeneratorN(0);
+        
+        String test = "J34625721";
+        System.out.println();
+    
     }
 
 }
