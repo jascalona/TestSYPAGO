@@ -37,7 +37,9 @@ public class Index {
                 String tlf = getCellValue(currentRow.getCell(3));
                 String cuenta = getCellValue(currentRow.getCell(4));
                 String CMCN = getCellValue(currentRow.getCell(5));
-                datos.add(new Cellxlsx(id, nombre, codBanco, tlf, cuenta, CMCN));
+                String email = getCellValue(currentRow.getCell(6));
+                String celeOTP = getCellValue(currentRow.getCell(7));
+                datos.add(new Cellxlsx(id, nombre, codBanco, tlf, cuenta, CMCN, email, celeOTP));
             }
 
         } catch (IOException e) {
@@ -86,7 +88,7 @@ public class Index {
 
     public static void main(String[] args) {
         String excelFilePath = "C:\\Import.xlsx"; //Ruta absoluta
-        List<Cellxlsx> datos_row = readExcelData(excelFilePath, 0);
+        List<Cellxlsx> datos_row = readExcelData(excelFilePath, 1);
 
         if (datos_row.isEmpty()) {
             System.out.println("No se encontraron datos en el archivo Excel o el archivo está vacío.");
