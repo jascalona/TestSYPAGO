@@ -5,6 +5,8 @@
 package Labels;
 
 import java.util.Random;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 
 /**
  *
@@ -12,24 +14,33 @@ import java.util.Random;
  */
 public class GeneratorNum {
 
-    public static void GeneratorN(int longitud) {
+    public static String AMT(int longitud) {
 
-        int min = 1;
-        int max = 100;
-        int calRango = max - min + 1;
+        double min = (long) Math.pow(10, longitud - 1);
+        double max = (long) Math.pow(10, longitud) - 1;
 
-        for (int i = 0; i < 100; i++) {
-            int numAletorio = (int) (Math.random() * calRango);
-            System.out.println(numAletorio);
+        if (longitud == 1) {
+            min = 1;
+            max = 9;
         }
+        Random amtRandom = new Random();
+        
+        double numAMT = min + (max - min) * amtRandom.nextDouble();     
+        
+        //Configurar simbolo delimitador
+        DecimalFormatSymbols symbol = new DecimalFormatSymbols();
+        symbol.setDecimalSeparator('.');
+        
+        //Formatear salida a a dos decimales
+        DecimalFormat df = new DecimalFormat("0.00", symbol);
+        return df.format(numAMT);
     }
 
     public static void main(String[] args) {
-        GeneratorN(0);
-        
-        String test = "J34625721";
-        System.out.println();
-    
+        int longitud = 2;
+        String randomAMT = AMT(longitud);
+        System.out.println(randomAMT);
+
     }
 
 }

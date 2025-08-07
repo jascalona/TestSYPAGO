@@ -44,7 +44,7 @@
     </plugins>
   </build>
   <properties>
-    <maven.compiler.release>8</maven.compiler.release>
+    <maven.compiler.release>10</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <exec.mainClass>com.mycompany.casobancaribetest.CasoBancaribeTest</exec.mainClass>
   </properties>
