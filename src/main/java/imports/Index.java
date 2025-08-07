@@ -88,7 +88,7 @@ public class Index {
 
     public static void main(String[] args) {
         String excelFilePath = "C:\\Import.xlsx"; //Ruta absoluta
-        List<Cellxlsx> datos_row = readExcelData(excelFilePath, 1);
+        List<Cellxlsx> datos_row = readExcelData(excelFilePath, 2);
 
         if (datos_row.isEmpty()) {
             System.out.println("No se encontraron datos en el archivo Excel o el archivo está vacío.");
