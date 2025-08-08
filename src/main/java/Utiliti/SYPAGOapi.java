@@ -8,27 +8,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Base64;
 
-/**
- *
- * @author usersycom
- */
 public class SYPAGOapi {
 
-    /**
-     * Sends an HTTP POST request to the SYPAGO gateway API.
-     *
-     * @param username userName
-     * @param apiKEY password for Basic Authentication.
-     * @param apiUrl The URL of the API endpoint.
-     * @param jsonPayload The JSON string to send in the request body.
-     * @return The server's response body as a String if the request is
-     * successful (HTTP 202 Accepted).
-     * @throws IOException If an I/O error occurs during the connection or data
-     * transfer.
-     * @throws RuntimeException If the HTTP response code indicates an error
-     * (not 202 Accepted).
-     */
-    public static String geyStsusReports(String username, String apiKEY, String apiUrl, String internal_id) throws IOException {
+    public static String geyStsusReports(String username, String apiKEY, String apiUrl, String client_id) throws IOException {
 
         String auth = username + ";" + apiKEY;
         String encodeAuth = Base64.getEncoder().encodeToString(auth.getBytes());
@@ -38,21 +20,22 @@ public class SYPAGOapi {
 
         connection.setRequestMethod("POST");
         connection.setDoOutput(true);
-        connection.setRequestProperty("Authorization", "Basic" + encodeAuth);
+        connection.setRequestProperty("Authorization", "Basic " + encodeAuth);
         connection.setRequestProperty("Content-Type", "application/json");
 
-        //Envios de datos JSON
         try (DataOutputStream os = new DataOutputStream(connection.getOutputStream())) {
-            os.writeBytes("{\\\"PmtStsReq\\\": {\\\"internal_id\\\": \\\"\" + internal_id + \"\\\",\\\"LclInstrm\\\": \\\"01\\\",\\\"product\\\": \\\"string\\\",\\\"bank_code\\\": \\\"\\\"}}");
+            String jsonInputString = "{\"client_id\": \"" + client_id + "\", \"secret\": \"" + apiKEY + "\"}";
+            os.writeBytes(jsonInputString);
             os.flush();
         }
 
-        int responseCode = connection.getResponseCode(); //Obtener el status code HTTP
-        System.out.println("Response code: " + responseCode); //debugin
+        int responseCode = connection.getResponseCode();
+        System.out.println("Response code: " + responseCode);
 
-        if (responseCode == HttpURLConnection.HTTP_ACCEPTED) {
+        // Lógica corregida para leer del InputStream en respuestas exitosas
+        if (responseCode == HttpURLConnection.HTTP_OK || responseCode == HttpURLConnection.HTTP_ACCEPTED) {
             StringBuilder response = new StringBuilder();
-            try (BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()))) {
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
                 String line;
                 while ((line = reader.readLine()) != null) {
                     response.append(line);
@@ -61,6 +44,7 @@ public class SYPAGOapi {
             connection.disconnect();
             return response.toString();
         } else {
+            // Lógica para leer del ErrorStream en respuestas de error
             StringBuilder errorResponse = new StringBuilder();
             try (BufferedReader errorReader = new BufferedReader(new InputStreamReader(connection.getErrorStream()))) {
                 String line;
@@ -68,34 +52,29 @@ public class SYPAGOapi {
                     errorResponse.append(line);
                 }
             } catch (Exception e) {
-                // Ignorar si el flujo de error no está disponible
+                // Si el flujo de error no está disponible, se ignora
             }
             connection.disconnect();
-            throw new RuntimeException("La solicitud HTTP fallo con el codigo" + responseCode + ".Detalles de Error: " + errorResponse.toString());
+            throw new RuntimeException("La solicitud HTTP falló con el código: " + responseCode + " Detalles de Error: " + errorResponse.toString());
         }
     }
-    
+
     public static void main(String [] args){
         String user = "jose";
         String apiKEY = "ibv8RLCUDSjgh2BwibN33SzynnKM404I";
-        String apiUrl = "https://pruebas.sypago.net:8086/api/v1/transaction/credit/";
-        String internal_id = "11111111111";
-        
-        try{
-            System.out.println("Iniciando API...");
-            String response = geyStsusReports(user, apiKEY, apiUrl, internal_id);
-            System.out.println("Request completado.");
-            System.out.println("Respuesta del servidor: " + response);
-            
-        } catch(IOException e){
-            System.out.println("Se produjo un error de I/O" + e.getMessage());
-            e.printStackTrace();
-        } catch(RuntimeException e){
-            System.out.println("Se produjo un error durante la solicitud HTTP: "+ e.getMessage());
-        }
-        
-    }
-    
-    
+        String apiUrl = "https://pruebas.sypago.net:8086/api/v1/auth/token";
+        String client_id = "jose";
 
+        try {
+            System.out.println("Iniciando SYPAGO request...");
+            String response = geyStsusReports(user, apiKEY, apiUrl, client_id);
+            System.out.println("Request completed.");
+            System.out.println("Respuesta del Servidor: " + response);
+        } catch (IOException e) {
+            System.err.println("Se produjo un error de I/O: " + e.getMessage());
+            e.printStackTrace();
+        } catch (RuntimeException e) {
+            System.err.println("Se produjo un error durante la solicitud HTTP: " + e.getMessage());
+        }
+    }
 }
