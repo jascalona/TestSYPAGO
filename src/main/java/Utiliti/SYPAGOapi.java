@@ -43,7 +43,7 @@ public class SYPAGOapi {
 
         //Envios de datos JSON
         try (DataOutputStream os = new DataOutputStream(connection.getOutputStream())) {
-            os.writeBytes("{\\\"PmtStsReq\\\": {\\\"internal_id\\\": \\\"\" + internal_id + \"\\\",\\\"LclInstrm\\\": \\\"01\\\",\\\"product\\\": \\\"string\\\",\\\"bank_code\\\": \\\"\\\"}");
+            os.writeBytes("{\\\"PmtStsReq\\\": {\\\"internal_id\\\": \\\"\" + internal_id + \"\\\",\\\"LclInstrm\\\": \\\"01\\\",\\\"product\\\": \\\"string\\\",\\\"bank_code\\\": \\\"\\\"}}");
             os.flush();
         }
 
@@ -77,7 +77,7 @@ public class SYPAGOapi {
     
     public static void main(String [] args){
         String user = "jose";
-        String apiKEY = "LaDMrx4KYdgdETaaeZ75BSHOeOCwUHGE";
+        String apiKEY = "ibv8RLCUDSjgh2BwibN33SzynnKM404I";
         String apiUrl = "https://pruebas.sypago.net:8086/api/v1/transaction/credit/";
         String internal_id = "11111111111";
         
