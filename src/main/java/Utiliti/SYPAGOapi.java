@@ -32,7 +32,7 @@ public class SYPAGOapi {
         int responseCode = connection.getResponseCode();
         System.out.println("Response code: " + responseCode);
 
-        // Lógica corregida para leer del InputStream en respuestas exitosas
+        // Logica corregida para leer del InputStream en respuestas exitosas ademas de agregar (HTTP_OK) para esperar status code 200 ajustado para casos API
         if (responseCode == HttpURLConnection.HTTP_OK || responseCode == HttpURLConnection.HTTP_ACCEPTED) {
             StringBuilder response = new StringBuilder();
             try (BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
@@ -44,7 +44,7 @@ public class SYPAGOapi {
             connection.disconnect();
             return response.toString();
         } else {
-            // Lógica para leer del ErrorStream en respuestas de error
+            // Logica para leer del ErrorStream en respuestas de error
             StringBuilder errorResponse = new StringBuilder();
             try (BufferedReader errorReader = new BufferedReader(new InputStreamReader(connection.getErrorStream()))) {
                 String line;
