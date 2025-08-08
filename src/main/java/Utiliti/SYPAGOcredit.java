@@ -25,7 +25,7 @@ public class SYPAGOcredit {
 
         // Construir el cuerpo de la solicitud JSON
         try (DataOutputStream os = new DataOutputStream(connection.getOutputStream())) {
-            String jsonInputString = "{\"internal_id\": \"" + internal_id + "\", \"bank_code\": \"\"}";
+            String jsonInputString = "{\"internal_id\": \"\" + internal_id + \"\", \"chargeAmt\": \10\", \"currency\": \"VES\", \"bank_code\": \"0001\", \"type\": \"CNTA\" }";
             os.writeBytes(jsonInputString);
             os.flush();
         }
