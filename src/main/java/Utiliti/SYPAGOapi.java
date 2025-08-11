@@ -61,7 +61,7 @@ public class SYPAGOapi {
 
     public static void main(String [] args){
         String user = "jose";
-        String apiKEY = "ibv8RLCUDSjgh2BwibN33SzynnKM404I";
+        String apiKEY = "OoGDsiRBGvQwNKZWjA7uNBoMU0t9Q9gQ";
         String apiUrl = "https://pruebas.sypago.net:8086/api/v1/auth/token";
         String client_id = "jose";
 
