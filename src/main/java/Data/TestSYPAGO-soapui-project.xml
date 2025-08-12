@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="15048116-659d-40cf-808a-d5b0ccdfef58" activeEnvironment="Default" name="TestSYPAGO" resourceRoot="" soapui-version="5.9.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="96435494-37de-43a4-8009-f08662812bea" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.0.62.20:8086" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://10.0.62.20:8086</con:endpoint></con:endpoints><con:resource name="Init" path="/sypago/gateway/api/v1/init" id="6d5157c0-e90b-4323-9511-ba59fd07a01b"><con:settings/><con:parameters/><con:method name="Init 1" id="726b6d09-ec23-4e95-a23b-b12060c3f296" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>202</con:status><con:params/><con:element xmlns:init="http://10.0.62.20/sypago/gateway/api/v1/init">init:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+<con:soapui-project id="15048116-659d-40cf-808a-d5b0ccdfef58" activeEnvironment="Default" name="TestSYPAGO" resourceRoot="" soapui-version="5.9.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="96435494-37de-43a4-8009-f08662812bea" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://10.0.62.20:8086" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://10.0.62.20:8086</con:endpoint><con:endpoint>https://10.0.62.20:8088</con:endpoint></con:endpoints><con:resource name="Init" path="/sypago/gateway/api/v1/init" id="6d5157c0-e90b-4323-9511-ba59fd07a01b"><con:settings/><con:parameters/><con:method name="Init 1" id="726b6d09-ec23-4e95-a23b-b12060c3f296" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>202 201</con:status><con:params/><con:element xmlns:init="http://10.0.62.20/sypago/gateway/api/v1/init">init:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>401 409</con:status><con:params/><con:element xmlns:init="http://10.0.62.20/sypago/gateway/api/v1/init">init:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8086</con:endpoint><con:request>{
   "TransactionId": "11111111111",
   "EndToEndId": "",
   "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
@@ -44,7 +44,77 @@
             "Nb": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}"
         }
     ]
-}</con:request><con:credentials><con:username/><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="3f01c580-8128-4844-bd5d-a5a175dd69bb" name="Debito"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="392e08df-e5a4-4bfc-a21c-1dcc7ac1aced" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadCustom" id="9a485430-b933-4ac3-ac83-68a5d2154f4d"><con:settings/><con:config><script>/***********SCRIPT LOAD EMISOR********/
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:credentials><con:username/><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="transaction GV2" path="/api/v1/transaction" id="5176259f-ccaf-4f1e-9238-9d668eb682b4"><con:settings/><con:parameters/><con:method name="Method 1" id="58d27b0e-7bd1-4540-a784-cb60e0e03aa8" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>401 409</con:status><con:params/><con:element xmlns:tran="https://10.0.62.20/api/v1/transaction">tran:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>201</con:status><con:params/><con:element xmlns:tran="https://10.0.62.20/api/v1/transaction">tran:Response</con:element></con:representation><con:request name="Request 1" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "{{$transactionId}}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "002",
+    "Amount": {
+        "Amt": 100.00,
+        "Ccy": "VES",
+        "Commission": 10.25
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "0172",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "01728475449174215050"
+        },
+        "Document": {
+            "Nm": "John Doe Emisor",
+            "Id": "V12345678",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "0114",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "01148475449174215050",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "J1234567845",
+            "Nm": "John Doe Receptor",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": 1
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "027345678901234567890123456780",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:credentials><con:username>sygateway_user</con:username><con:password>sB5I2lRO5Jxh1ia47S7KvnyLR</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="transaction" path="/api/v1/transaction/?is_send_transaction=true&amp;transaction_id=E51F181BD046" id="563b7f56-c9ce-4207-98c8-782fb95f04a1"><con:settings/><con:parameters/><con:method name="Method 1" id="d8a2cdf4-eeb6-44f9-a947-af11fa234d1b" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/plain</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>401 404</con:status><con:params/><con:element xmlns:e31="https://10.0.62.20/api/v1/transaction/E31F527BD309">e31:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:e31="https://10.0.62.20/api/v1/transaction/E31F527BD309">e31:Response</con:element></con:representation><con:request name="Request 1" id="78cb3b42-c5d2-48c7-8df9-3cf958bfafb1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request/><con:originalUri>https://10.0.62.20/api/v1/transaction/E31F527BD309</con:originalUri><con:credentials><con:username>sygateway_user</con:username><con:password>sB5I2lRO5Jxh1ia47S7KvnyLR</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="3f01c580-8128-4844-bd5d-a5a175dd69bb" name="Debito"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="392e08df-e5a4-4bfc-a21c-1dcc7ac1aced" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="LoadCustom" id="9a485430-b933-4ac3-ac83-68a5d2154f4d"><con:settings/><con:config><script>/***********SCRIPT LOAD EMISOR********/
 import imports.Index;
 import imports.Cellxlsx;
 import java.util.Random;
@@ -426,7 +496,80 @@ def longitudNm = 351;
 
 //Llamado del metodo
 def generatorNm = Labels.GeneratorUserReferenceId.GeneratorChart(longitudNm);
-context.chartNm = generatorNm;</script></con:config></con:testStep><con:testStep type="restrequest" name="Iniciacion Debito 0114" id="a2c63658-7774-499e-9496-9500996daae7" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Iniciacion Debito 0114" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+context.chartNm = generatorNm;</script></con:config></con:testStep><con:testStep type="restrequest" name="TEST-V2" id="4d14eb2b-978c-4bad-8078-c3cb2916a574"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TEST-V2" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+  "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
+  "EndToEndId": "",
+  "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
+  "SendingUser": {
+    "UserId": "d84c1b8d-8499-41fe-89b3-ca488c1559ac",
+    "Nm": "${#Project#Nm}",
+    "Id": "${#Project#id}",
+    "Schema": "1",
+    "Concept": "Pago de productos",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${#Project#CNTA}"
+    }
+  },
+  "SendingBankCode": "${#Project#codBanco}",
+  "ReceivingUser": {
+    "UserId": "",
+    "Nm": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
+    "Id": "${=context.ListIBPs [${=context.ListRandom}].id}",
+    "Schema": "0",
+    "Concept": "",
+    "Response": "0",
+    "Acct": {
+      "Tp": "CNTA",
+      "Id": "${=context.ListIBPs [${=context.ListRandom}].cuenta}"
+    }
+  },
+  "ReceivingBankCode": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+  "Amount": {
+    "Ccy": "VES",
+    "Amt": 2
+  },
+  "PaymentType": "3",
+  "Product": "050",
+  "SubProduct": "003",
+  "AprvlAgt": "OTHE",
+  "PaymentKey": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(8)}",
+  "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${=context.ListIBPs [${=context.ListRandom}].CMNC}"
+        }
+    ]
+}</con:request><con:originalUri>http://10.0.62.20/sypago/gateway/api/v1/init</con:originalUri><con:assertion type="GroovyScriptAssertion" id="f28919e3-b222-4277-98cd-e9d6c1fb1cb0" name="Script Assertion"><con:configuration><scriptText>//import org.bson.Document
+import groovy.json.JsonSlurper;
+import Utiliti.SYPAGOBancaribe;
+
+sleep(5000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new SYPAGOBancaribe();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sycom_gateway_user","3b17-0e38206Pae-88_@fb8476dff92f271A7C","http://10.0.62.20:8086/sypago/gateway/api/v1/solest",json.TransactionId);
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "ACCP"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	log.info Rsn
+	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Iniciacion Debito 0114" id="a2c63658-7774-499e-9496-9500996daae7" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/sypago/gateway/api/v1/init" methodName="Init 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Iniciacion Debito 0114" id="2e8897c9-0030-4f31-8983-165c4cbcd58a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
     "EndToEndId": "",
     "UserReferenceId": "N0007",
@@ -498,7 +641,7 @@ def ClienteBancaribe =  new SYPAGOBancaribe();
 	def Rsn = jsonR.TrnStRp.Rsn; 
 	log.info Rsn
 	//assert  Rsn== "MD21" //Assert condicion que verifica que el valor sea igual a lo definido
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Iniciacion Debito Other IBPs" id="8129cd80-8893-46a2-a800-e34a5c4d45ac" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Iniciacion Debito Other IBPs" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Iniciacion Debito Other IBPs" id="8129cd80-8893-46a2-a800-e34a5c4d45ac" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Iniciacion Debito Other IBPs" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
   "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
   "EndToEndId": "",
   "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
@@ -2906,7 +3049,7 @@ def ClienteBancaribe =  new SYPAGOBancaribe();
 	def Rsn = jsonR.TrnStRp.Rsn; 
 	log.info Rsn
 	assert  Rsn== "AC09" //Assert condicion que verifica que el valor sea igual a lo definido
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-34 Product \ NULL" id="f35f6f75-bc8a-4b4a-b2fd-7b7ae97d875c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-34" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-34 Product \ NULL" id="f35f6f75-bc8a-4b4a-b2fd-7b7ae97d875c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-34 Product \ NULL" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
   "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
   "EndToEndId": "",
   "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
@@ -3125,7 +3268,7 @@ def ClienteBancaribe =  new SYPAGOBancaribe();
 	def Rsn = jsonR.TrnStRp.Rsn; 
 	log.info Rsn
 	assert  Rsn== "FF07" //Assert condicion que verifica que el valor sea igual a lo definido
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-37 SubProduct \ SubProduct > 7 digitos" id="114cb030-6ec0-465b-9ceb-956bfe7a0b42" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-37 SubProduct \ SubProduct > 7" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="FMT-37 SubProduct \ SubProduct > 7 digitos" id="114cb030-6ec0-465b-9ceb-956bfe7a0b42" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" methodName="Init 1" resourcePath="/sypago/gateway/api/v1/init" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="FMT-37 SubProduct \ SubProduct > 7 digitos" id="458f5d74-1036-4263-ae48-356596453f7a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.0.62.20:8086</con:endpoint><con:request>{
   "TransactionId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(11)}",
   "EndToEndId": "",
   "UserReferenceId": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(16)}",
@@ -3344,4 +3487,288 @@ def ClienteBancaribe =  new SYPAGOBancaribe();
 	def Rsn = jsonR.TrnStRp.Rsn; 
 	log.info Rsn
 	//assert  Rsn== "AG10" //Assert condicion que verifica que el valor sea igual a lo definido
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>sycom_gateway_user</con:value></con:property><con:property><con:name>password</con:name><con:value>3b17-0e38206Pae-88_@fb8476dff92f271A7C</con:value></con:property><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694</con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560645604049638</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="fb19db7f-88bd-494b-a722-00376582b361" name="GatewayV2 Debito"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="f580a77d-d1fb-4af9-be2e-81937e649baa" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Transaction-Sypago" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Datos Bancaribe" id="9b3e9561-0a2b-456e-9233-28cd0af60666"><con:settings/><con:config><script>//SCRIPTS PARA PASAR A CONTEXTO GLOBAL LA DATA IMPORTADA CARGADA DESDE EXCEL APLICANDO EL METODO RANDOM
+
+/*
+*  Para invocar a las variables desde el msj JSON de forma statica haciendo se debe hacer referencia al numero del elemento deseado
+*  
+*  Ejm Statico de una etiqueta: "${=context.variableContextGlobal [0].nombre}"
+*  Ejm Dinamico de una etiqueta "${=context.variableContextGlobal [${context.}]}"	
+*/
+
+/***********SCRIPT RECEPTOR IBP BANCARIBE******************/
+import imports.Cellxlsx;
+import imports.Index;
+import java.util.Random;
+
+def excelFilePath = "C:\\Import.xlsx"; //Ruta absoluta
+
+def ReceptorBancaribe = Index.readExcelData(excelFilePath,0);
+
+/****Instancia Random****/
+def randomBancaribe = new Random().nextInt(ReceptorBancaribe.size()); //Definicion de las filas dentro de la hola
+log.info("Indice de fila generado: ${randomBancaribe}" );
+
+//Contextualizar Lista de variables globales
+context.listRecepBancaribe = ReceptorBancaribe;
+log.info(context.listRecepBancaribe); //.nombre[0] 
+
+//Contextualizar valor generado por el metodo random
+context.ListRandom = randomBancaribe;
+//log.info(context.ListRandom)
+
+
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="TransactionId" id="2fb46c4d-eb3f-4741-8304-43c5ecd7de38"><con:settings/><con:config><script>import java.util.Random;
+import Labels.TransactionIdGV2;
+
+//Variable para almacer el string
+def longitudGroovy = 8;
+
+//Llamamos al método estático directamente usando el nombre del paquete y la clase
+def codigoGenerado = Labels.TransactionIdGV2.TransactionId(longitudGroovy)
+context.transactionId = codigoGenerado; //Contexto
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="AMT" id="046435dc-065c-45bd-a681-35b22155b872"><con:settings/><con:config><script>import java.util.Random;
+import Labels.GeneratorNum;
+
+def longitud= 1;
+//Llamatodo dle metodo y clase 
+def amtRandom = Labels.GeneratorNum.AMT(longitud);
+context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="Copy of Iniciacion" id="070121af-be32-49ae-8184-b18d56cfec58" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=context.transactionId}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": 100.00,
+        "Ccy": "VES",
+        "Commission": 10.25
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": 1
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="EST-DOM-01-Iniciacion" id="4210222e-89b6-42b5-9289-86686297297e"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EST-DOM-01-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=context.transactionId}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "0114",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "01140165171659176870",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "E84549121",
+            "Nm": "jdfggdfgftas",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": 1
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2;
+
+//sleep(2000) //Aplica un retardo de 2sg;
+
+def ClienteBancaribe =  new GatewayV2();
+
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+    log.info json.TransactionId
+    def a = ClienteBancaribe.geyStsusReports("sygateway_user","sB5I2lRO5Jxh1ia47S7KvnyLR","https://10.0.62.20:8088/api/v1/transaction/?is_send_transaction=true&amp;transaction_id=E51F181BD046");
+    log.info(a);
+
+    def jsonR = new groovy.json.JsonSlurper().parseText(a)
+    
+    log.info jsonR.TrnStRp.TxSts
+    
+    def TxSts = jsonR.TrnStRp.TxSts; 
+	assert  TxSts== "RJCT"
+
+	def Rsn = jsonR.TrnStRp.Rsn; 
+	//log.info Rsn
+	assert  Rsn== "MD21" //Assert condicion que verifica que el valor sea igual a lo definido</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="EST-DOM-02-Iniciacion" id="a7bfa790-a120-46cf-8418-6f1ec274bc3c" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EST-DOM-02-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=context.transactionId}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "0114",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "01140165171659176870",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "E84549121",
+            "Nm": "jdfggdfgftas",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": 1
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694  </con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560645604049638</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>sygateway_user</con:value></con:property><con:property><con:name>password</con:name><con:value>sB5I2lRO5Jxh1ia47S7KvnyLR</con:value></con:property><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694</con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560645604049638</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
