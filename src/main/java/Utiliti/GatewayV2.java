@@ -104,6 +104,7 @@ public class GatewayV2 {
                 connection.disconnect(); // Asegurarse de desconectar la conexión
             }
             return response.toString();
+
         } else {
             StringBuilder errorResponse = new StringBuilder();
             try (BufferedReader errorReader = new BufferedReader(new InputStreamReader(connection.getErrorStream()))) {
@@ -113,17 +114,18 @@ public class GatewayV2 {
                 }
             } catch (Exception e) {
                 // Ignorar errores al leer el stream de error si ya es un estado de error
+                return  e.getMessage();
             } finally {
                 connection.disconnect(); // Asegurarse de desconectar la conexión
             }
-            throw new RuntimeException("La solicitud GET HTTP falló con el código " + responseCode + ". Detalles del error: " + errorResponse.toString());
+            return errorResponse.toString();
         }
     }
 
     public static void main(String[] args) {
         String username = "sygateway_user";
         String password = "sB5I2lRO5Jxh1ia47S7KvnyLR";
-        String transactionId = "E51F181BD046"; // Usando el ID de ejemplo del prompt
+        String transactionId = null; // Usando el ID de ejemplo del prompt
         // String transactionId = transactionIdGenerator.TransactionId(8); // Para un ID dinámico
 
         // URL base para el endpoint de la API
