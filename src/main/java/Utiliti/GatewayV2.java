@@ -16,9 +16,7 @@ public class GatewayV2 {
     // Bloque estático que se ejecuta una sola vez al cargar la clase
     static {
         try {
-            // Paso 1: Crear un TrustManager que no valide los certificados.
-            // ¡Advertencia!: Esto es SOLO para entornos de desarrollo/pruebas.
-            // NO se recomienda en entornos de producción por razones de seguridad.
+            //Crear un TrustManager que no valide los certificados.
             TrustManager[] trustAllCerts = new TrustManager[]{
                     new X509TrustManager() {
                         public X509Certificate[] getAcceptedIssuers() {
@@ -35,16 +33,14 @@ public class GatewayV2 {
                     }
             };
 
-            // Paso 2: Inicializar el SSLContext con el TrustManager que ignora la validación.
+            //Inicializar el SSLContext con el TrustManager que ignora la validación.
             SSLContext sc = SSLContext.getInstance("SSL");
             sc.init(null, trustAllCerts, new java.security.SecureRandom());
 
-            // Paso 3: Aplicar la configuración de fábrica de sockets SSL por defecto.
+            //  Aplicar la configuración de fábrica de sockets SSL por defecto.
             HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
 
-            // Paso 4: Desactivar la verificación del nombre de host.
-            // ¡Advertencia!: Similar al TrustManager, esto es SOLO para desarrollo/pruebas.
-            // NO se recomienda en entornos de producción.
+            //Desactivar la verificación del nombre de host.
             HttpsURLConnection.setDefaultHostnameVerifier(new HostnameVerifier() {
                 public boolean verify(String hostname, SSLSession session) {
                     return true; // Siempre devuelve true, no verifica el nombre de host
