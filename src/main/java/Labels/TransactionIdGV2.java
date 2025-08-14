@@ -4,39 +4,43 @@ import java.util.Random;
 
 public class TransactionIdGV2 {
 
-    public static String TransactionId(int longitud){
+    public static String Transaction(int longitud){
 
-        int min = (int) Math.pow(10, longitud -1);
-        int max = (int) Math.pow(10, longitud ) -1;
-        StringBuilder transactionId = new StringBuilder();
 
-        Random  TranRandom = new Random();
-        int stcTranid = TranRandom.nextInt(max - min) +1;
-        transactionId.append(stcTranid);
+        Random idRandom = new Random();
+        StringBuilder transaction = new StringBuilder();
 
+        //Generar id de digitos, hexadecimal (0-9)
+        for(int i= 0; i < longitud; i++){
+            long id = idRandom.nextInt(10);
+            transaction.append(id);
+        }
 
         int pos1 = 0;
         char pos1stc = 'E';
-        transactionId.insert(pos1,pos1stc);
+        transaction.insert(pos1,pos1stc);
 
         int pos2 = 3;
         char pos2stc = 'F';
-        transactionId.insert(pos2,pos2stc);
+        transaction.insert(pos2,pos2stc);
 
         int pos3 = 7;
         String pos3stc = "BD";
-        transactionId.insert(pos3,pos3stc);
+        transaction.insert(pos3,pos3stc);
 
-        return String.valueOf(transactionId);
+        System.out.println("Transaction: " + transaction);
+        System.out.println("Longitud: " + transaction.length());
+
+        return String.valueOf(transaction);
+    }
+
+    public static void main(String [] args){
+        TransactionIdGV2.Transaction(8);
+    }
+
 
     }
 
-    public static  void main(String [] args){
-        TransactionIdGV2 transactionCompuesto = new TransactionIdGV2();
-        int longitud = 8;
-        String transactionId = transactionCompuesto.TransactionId(longitud);
-        System.out.println(transactionId);
-    }
 
 
-}
+

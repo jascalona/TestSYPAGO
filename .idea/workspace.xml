@@ -11,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a0bad1ea-beb6-4940-a4c1-fdd31d90451c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/TestSYPAGO-soapui-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/TestSYPAGO-soapui-project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Labels/TransactionIdGV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Labels/TransactionIdGV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Labels/TransactionIdGV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Labels/TransactionIdGV2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.validation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GatewayV2">
+  <component name="RunManager" selected="Application.TransactionIdGV2">
     <configuration name="GatewayV2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Utiliti.GatewayV2" />
       <module name="CasoBancaribeTest" />
@@ -112,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneratorNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Labels.GeneratorNum" />
-      <module name="CasoBancaribeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Labels.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SYPAGOBancaribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Utiliti.SYPAGOBancaribe" />
       <module name="CasoBancaribeTest" />
@@ -138,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionIdGV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Labels.TransactionIdGV2" />
+      <module name="CasoBancaribeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Labels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransactionIdGV2" />
         <item itemvalue="Application.GatewayV2" />
         <item itemvalue="Application.GatewayV2 (2)" />
         <item itemvalue="Application.GatewayV2 (1)" />
         <item itemvalue="Application.SYPAGOBancaribe" />
-        <item itemvalue="Application.GeneratorNum" />
       </list>
     </recent_temporary>
   </component>
