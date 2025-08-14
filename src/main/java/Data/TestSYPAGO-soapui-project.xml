@@ -3535,77 +3535,7 @@ import Labels.GeneratorNum;
 def longitud= 1;
 //Llamatodo dle metodo y clase 
 def amtRandom = Labels.GeneratorNum.AMT(longitud);
-context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="Copy of Iniciacion" id="070121af-be32-49ae-8184-b18d56cfec58" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
-    "TraceId": "2B1455C1302E",
-    "TransactionId": "${=context.transactionId}",
-    "UserId": "371D2E119F49",
-    "UserReferenceId": "A9C46BCAEF43",
-    "UserGroupId": "D3EE2EA3F757",
-    "UserUniqueId": "371D2E119F52",
-    "CreationDate": "2025-03-21T09:11:01:02",
-    "SypagoInitDate": "2025-03-21T09:11:01.364563",
-    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
-    "Product": "050",
-    "SubProduct": "003",
-    "Amount": {
-        "Amt": 100.00,
-        "Ccy": "VES",
-        "Commission": 10.25
-    },
-    "ProductSypago": "DEBIT",
-    "SubProductSypago": "SYPAGO",
-    "ApprovalAgent": "OTHE",
-    "SyPagoCreationChannel": "WEB-APP",
-    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
-    "IssuingAgent": "${#TestSuite#codBanco}",
-    "IssuingUser": {
-        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
-        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
-        "Account": {
-            "Tp": "CNTA",
-            "Id": "${#TestSuite#CNTA}"
-        },
-        "Document": {
-            "Nm": "${#TestSuite#Nm}",
-            "Id": "${#TestSuite#id}",
-            "SchmeNm": "SCID"
-        },
-        "Concept": "Cobro porque si 503"
-    },
-    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
-    "ReceivingUser": {
-        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
-        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
-        "Account": {
-            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
-            "Tp": "CNTA"
-        },
-        "Document": {
-            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
-            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
-            "SchmeNm": "SRIF"
-        },
-        "Concept": "Concepto Receptor"
-    },
-    "PayKey": "620134",
-    "RfrdDocInf": [
-        {
-            "CdOrPrtry": "CINV",
-            "Nb": "012345678901234567890123456789",
-            "RltdDt": "2020-03-17",
-            "RjctDt": "2020-04-18",
-            "DuePyblAmt": {
-                "Ccy": "VES",
-                "Amt": 1
-            }
-        },
-        {
-            "CdOrPrtry": "CMCN",
-            "Nb": "${#TestSuite#CMCN}",
-            "RltdDt": "2019-06-25"
-        }
-    ]
-}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-01-Iniciacion" id="4210222e-89b6-42b5-9289-86686297297e" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-01-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-01-Iniciacion" id="4210222e-89b6-42b5-9289-86686297297e" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-01-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -4185,7 +4115,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-05-Product\ null" id="5a88b768-84d6-470f-b7c0-253893b95788" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-07-Product\ null" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-05-Product\ null" id="5a88b768-84d6-470f-b7c0-253893b95788" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-05-Product\ null" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -4301,7 +4231,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-06-Product\Valor invalido" id="4227fd25-a186-4ab3-9675-008b18f8b201" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-05-Product\Valor invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-06-Product\Valor invalido" id="4227fd25-a186-4ab3-9675-008b18f8b201" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-06-Product\Valor invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -4417,7 +4347,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "TE10"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-07-Product\ > 3" id="09b14dae-bad8-4266-a56a-8169f4e02386" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-05-Product\ > 3" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-07-Product\ > 3" id="09b14dae-bad8-4266-a56a-8169f4e02386" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-07-Product\ > 3" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -4533,7 +4463,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-08-Product\ 040" id="3d9fa817-4a0f-4624-8432-dbe4b11e6519" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-07-Product\ 040 con sub-producto 003" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-08-Product\ 040" id="3d9fa817-4a0f-4624-8432-dbe4b11e6519" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-08-Product\ 040" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -4765,7 +4695,7 @@ assert status == "ACCP"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "TE29"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-09-SubProduct\ NULL" id="9111beff-2da1-46fd-bdcc-28dea5cf44b3" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-08-Sub-Product\" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-09-SubProduct\ NULL" id="9111beff-2da1-46fd-bdcc-28dea5cf44b3" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-09-SubProduct\ NULL" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -4997,7 +4927,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-11-SubProduct\ 002" id="063f1806-9bbf-4078-9198-af9350d9d46e" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-10-SubProduct\ 002" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-11-SubProduct\ 002" id="063f1806-9bbf-4078-9198-af9350d9d46e" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-11-SubProduct\ 002" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -5113,7 +5043,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "TKCM"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-13-SubProduct\ 003" id="32da2920-7bcc-46df-b182-e9e206a67746" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-11-SubProduct\ 003" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-13-SubProduct\ 003" id="32da2920-7bcc-46df-b182-e9e206a67746" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-13-SubProduct\ 003" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -5464,7 +5394,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-16-Amt\NULL" id="6cb0924a-cbde-423a-ab01-30ba7d8e6425" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-06-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-16-Amt\NULL" id="6cb0924a-cbde-423a-ab01-30ba7d8e6425" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-16-Amt\NULL" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -5580,7 +5510,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-17-Amt\ Negativo" id="55945ae7-f117-4797-bdf8-0d6cdc9d2c7b" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-16-Amt\ Negativo" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-17-Amt\ Negativo" id="55945ae7-f117-4797-bdf8-0d6cdc9d2c7b" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-17-Amt\ Negativo" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -5696,7 +5626,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "MD15"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-18-Amt\ == 0" id="a0acc5b1-5c99-4e33-b889-0ff5a809b85d" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-19-Amt\ = 0" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-18-Amt\ == 0" id="a0acc5b1-5c99-4e33-b889-0ff5a809b85d" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-18-Amt\ == 0" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -5812,7 +5742,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "MD15"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-19-Amt\ Caracter %$#@" id="f4adb9d5-832e-4039-88a0-7ee9d9264daa" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GV2-EST-DOM-19-Amt\ Caracter &quot;,&quot;" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-19-Amt\ Caracter %$#@" id="f4adb9d5-832e-4039-88a0-7ee9d9264daa" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-19-Amt\ Caracter %$#@" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -5928,7 +5858,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-20-Ccy\ null" id="759a39ba-7ac4-455d-b1b7-0d8d0121d0fa" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-21-Amt\ null" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-20-Ccy\ null" id="759a39ba-7ac4-455d-b1b7-0d8d0121d0fa" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-20-Ccy\ null" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6044,7 +5974,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-21-Ccy\ Invalido" id="9d448f6e-26a1-4b0f-916b-5cde9ff262de" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GV2-EST-DOM-21-Ccy\ Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-21-Ccy\ Invalido" id="9d448f6e-26a1-4b0f-916b-5cde9ff262de" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-21-Ccy\ Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6276,7 +6206,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-23-Ccy\ USD" id="4e1c724f-bc2a-4607-8a8a-425d33fd3046" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-22-Ccy\ USD" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-23-Ccy\ USD" id="4e1c724f-bc2a-4607-8a8a-425d33fd3046" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-23-Ccy\ USD" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6392,7 +6322,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "MD15"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-24-Account-Tp\ NULL" id="ded6cf19-ab7c-4d2a-86d5-5561c51a0cc9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-24-acion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-24-Account-Tp\ NULL" id="ded6cf19-ab7c-4d2a-86d5-5561c51a0cc9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-24-Account-Tp\ NULL" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6508,7 +6438,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-25-Account-Tp\Invalido" id="5ba3fac9-0aea-4a69-8150-53e26ec0c8ed" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-25-Tp\Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-25-Account-Tp\Invalido" id="5ba3fac9-0aea-4a69-8150-53e26ec0c8ed" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-25-Account-Tp\Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6624,7 +6554,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-26-Account-Tp\ > 4" id="177f2639-5f66-4802-acfe-a0ef6eeae9af" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GV2-EST-DOM-25-Tp\ CELE" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-26-Account-Tp\ > 4" id="177f2639-5f66-4802-acfe-a0ef6eeae9af" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-26-Account-Tp\ > 4" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6740,7 +6670,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-27-Account-Tp\ CELE" id="40939101-7796-41a9-b32a-f335d1b30fb9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-25-Tp\ CELE" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-27-Account-Tp\ CELE" id="40939101-7796-41a9-b32a-f335d1b30fb9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-27-Account-Tp\ CELE" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6856,7 +6786,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "MD15"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-28-Account-Id\ NULL" id="9e9ce869-f4de-4b3c-a54c-f16112fbd3c9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="of GV2-EST-DOM-25-Account-Id\ NULL" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-28-Account-Id\ NULL" id="9e9ce869-f4de-4b3c-a54c-f16112fbd3c9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-28-Account-Id\ NULL" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -6972,7 +6902,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-29-Account-Id\ Invalido" id="3ed3e571-c419-4c73-958f-b79583d4fadc" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-29-Account-Id\ 29" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-29-Account-Id\ Invalido" id="3ed3e571-c419-4c73-958f-b79583d4fadc" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-29-Account-Id\ Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -7088,7 +7018,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "BE01"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-30-Account-Id\ ReceivingAgent Invalido" id="60cdf242-5b58-4696-b733-f37ce5b75ac3" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GV2-EST-DOM-29-Account-Id\ ReceivingAgent Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-30-Account-Id\ ReceivingAgent Invalido" id="60cdf242-5b58-4696-b733-f37ce5b75ac3" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-30-Account-Id\ ReceivingAgent Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -7204,7 +7134,7 @@ assert status == "RJCT"; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == "AC01"; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-31-Account-Id\ > 20" id="0ed321ba-233a-4d1c-a72a-d74d93aa2359" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-29-Account-Id\ COD" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-31-Account-Id\ > 20" id="0ed321ba-233a-4d1c-a72a-d74d93aa2359" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-31-Account-Id\ > 20" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -7320,7 +7250,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-32-Account-Id\ &lt; 20" id="e8031abd-8ba0-4497-82d4-4dbb45eb62e4" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-29-Account-Id\ &lt; 20" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-32-Account-Id\ &lt; 20" id="e8031abd-8ba0-4497-82d4-4dbb45eb62e4" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-32-Account-Id\ &lt; 20" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -7436,7 +7366,7 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-32-Account-Id\ Caracter #@%*" id="f5c24fa5-2b0f-4252-ad95-31914710ae54"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-32-Account-Id\ Caracter #@%*" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-32-Account-Id\ Caracter #@%*" id="f5c24fa5-2b0f-4252-ad95-31914710ae54" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-32-Account-Id\ Caracter #@%*" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
     "UserId": "371D2E119F49",
@@ -7552,4 +7482,1280 @@ assert status == null; // Aserción para el campo Status
 def rejectedCode = jsonResponse.RejectedCode;
 log.info("Código de rechazo: " + rejectedCode);
 assert rejectedCode == null; // Aserción para el campo RejectedCode
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694  </con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560635600070438</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>sygateway_user</con:value></con:property><con:property><con:name>password</con:name><con:value>sB5I2lRO5Jxh1ia47S7KvnyLR</con:value></con:property><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694</con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560645604049638</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-33-Document-id\ NULL" id="62f6a477-70c5-4b4c-891b-143f47e99150" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-36-Document.id" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": null,
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == null; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == null; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-34-Document-id\ Invalido" id="edfe2a7f-305a-4a5d-a53c-2b3d3801c1e2" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-34-Document-id\ Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "J230212548",
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "RJCT"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == "BE01"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-35-Document-id\ Identificador Invalido" id="b27598da-f59b-4a2c-9809-81ed606a0bfe" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-35-Document-id\ Identificador Invalido" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "K22130654",
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "RJCT"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == "BE01"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-36-Document-id\ > 12" id="53ac0ef9-0e1e-4f76-95eb-d49aa0cf2739" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-36-Document-id\ > 12" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "J2213065498765",
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "RJCT"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == "BE01"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-37-Document-id\ &lt; 7" id="48247f14-a89d-4e76-a3b4-4716f928cb93" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-36-Document-id\ &lt; 7" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "V123456",
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "RJCT"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == "BE01"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-37-Document-id\ Caracter %^$#" id="c7151ccb-70b1-4d86-87d5-716f1330ebb9" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-37-Document-id\ Caracter %^$#" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "J&amp;308123^1",
+            "Nm": "${=context.listRecepBancaribe [${=context.ListRandom}].nombre}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "RJCT"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == "BE01"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-39-Document-Nm\NULL" id="8a3a44d9-2bb3-4c20-8f57-24c8fe41def1" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-39-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+            "Nm": null,
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == null; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == null; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-40-Document-Nm\Vacio" id="71e52826-0960-4bd3-aadb-0f6d9799fd93" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-40-Document-Nm\Vacio" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+            "Nm": "",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "ACCP"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+//assert rejectedCode == null; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-41-Document-Nm\ Caracter %^#" id="e589e244-c026-44d2-b8e6-4058162d16bc" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-40-Document-Nm\ Caracter %^#" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+            "Nm": "B@ncñarib%$!*()",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "RJCT"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+assert rejectedCode == "TE29"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Copy of GV2-EST-DOM-42-Document-Nm\ > 200" id="ca55b825-af55-47e7-81bf-e5ffa9c51164" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GV2-EST-DOM-40-Document-Nm\ > 200" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+            "Nm": "${=Labels.GeneratorUserReferenceId.GeneratorChart(100)}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "ACCP"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+//assert rejectedCode == "TE29"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-43-Document-Nm\ > 40" id="79fa4255-faf7-4180-be1e-1c4dfdb9d4b7" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of Copy of GV2-EST-DOM-42-Document-Nm\ > 50" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+    "TraceId": "2B1455C1302E",
+    "TransactionId": "${=Labels.TransactionIdGV2.TransactionId(8)}",
+    "UserId": "371D2E119F49",
+    "UserReferenceId": "A9C46BCAEF43",
+    "UserGroupId": "D3EE2EA3F757",
+    "UserUniqueId": "371D2E119F52",
+    "CreationDate": "2025-03-21T09:11:01:02",
+    "SypagoInitDate": "2025-03-21T09:11:01.364563",
+    "SypagoProcessDate": "2025-03-21T09:11:02.014563",
+    "Product": "050",
+    "SubProduct": "003",
+    "Amount": {
+        "Amt": ${=context.generatorAMT},
+        "Ccy": "VES",
+        "Commission": ${=context.generatorAMT}
+    },
+    "ProductSypago": "DEBIT",
+    "SubProductSypago": "SYPAGO",
+    "ApprovalAgent": "OTHE",
+    "SyPagoCreationChannel": "WEB-APP",
+    "SyPagoAcceptanceChannel": "WEB-CHECKOUT",
+    "IssuingAgent": "${#TestSuite#codBanco}",
+    "IssuingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Tp": "CNTA",
+            "Id": "${#TestSuite#CNTA}"
+        },
+        "Document": {
+            "Nm": "${#TestSuite#Nm}",
+            "Id": "${#TestSuite#id}",
+            "SchmeNm": "SCID"
+        },
+        "Concept": "Cobro porque si 503"
+    },
+    "ReceivingAgent": "${=context.listRecepBancaribe [${=context.ListRandom}].codBanco}",
+    "ReceivingUser": {
+        "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
+        "Account": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].cuenta}",
+            "Tp": "CNTA"
+        },
+        "Document": {
+            "Id": "${=context.listRecepBancaribe [${=context.ListRandom}].id}",
+            "Nm": "${=Labels.GeneratorUserReferenceId.GeneratorChart(41)}",
+            "SchmeNm": "SRIF"
+        },
+        "Concept": "Concepto Receptor"
+    },
+    "PayKey": "620134",
+    "RfrdDocInf": [
+        {
+            "CdOrPrtry": "CINV",
+            "Nb": "012345678901234567890123456789",
+            "RltdDt": "2020-03-17",
+            "RjctDt": "2020-04-18",
+            "DuePyblAmt": {
+                "Ccy": "VES",
+                "Amt": ${=context.generatorAMT}
+            }
+        },
+        {
+            "CdOrPrtry": "CMCN",
+            "Nb": "${#TestSuite#CMCN}",
+            "RltdDt": "2019-06-25"
+        }
+    ]
+}</con:request><con:originalUri>https://10.0.62.20/api/v1/transaction</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="297947b3-2125-4a7d-8118-75636b269458" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="97ad98bb-9251-47bc-8a99-af6455555002" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper;
+import Utiliti.GatewayV2; // Asegúrate de que esta ruta sea correcta para tu proyecto
+
+// Opcional: Descomenta la siguiente línea si necesitas un retardo antes de la ejecución.
+// sleep(2000) // Aplica un retardo de 2 segundos;
+
+// Instancia de la clase Java GatewayV2
+def ClienteBancaribe = new GatewayV2();
+
+//Llamar el valor de TransactioId
+    def requestContent = new String(messageExchange.rawRequestData)
+    def jsonStartIndex = requestContent.indexOf("{")
+    def jsonContent = requestContent.substring(jsonStartIndex)
+    log.info  jsonContent
+    def json = new groovy.json.JsonSlurper().parseText(jsonContent)
+
+
+// Definir el transaction_id que deseas consultar.
+// Este debe coincidir con el ID que esperas en la respuesta.
+def transactionIdToQuery = json.TransactionId; // Usamos el ID de ejemplo que nos diste
+
+// Llama al método Java corregido 'getStatusReports'
+// El endpoint ahora se pasa como una URL base y el transaction_id se añade internamente.
+def responseJsonString = ClienteBancaribe.getStatusReports(
+    "sygateway_user",
+    "sB5I2lRO5Jxh1ia47S7KvnyLR",
+    "https://10.0.62.20:8088/api/v1/transaction/", // URL base
+    transactionIdToQuery // El transaction_id se agrega como parámetro de la URL dentro del método Java
+);
+
+log.info("Respuesta completa del servidor: " + responseJsonString);
+
+// Parsea la cadena JSON de la respuesta del servidor
+def jsonResponse = new groovy.json.JsonSlurper().parseText(responseJsonString);
+
+// --- Asersiones basadas en la estructura JSON esperada ---
+
+// Accede directamente a "Status" desde la raíz del JSON
+def status = jsonResponse.Status;
+log.info("Estado de la transacción: " + status);
+assert status == "ACCP"; // Aserción para el campo Status
+
+// Accede directamente a "RejectedCode" desde la raíz del JSON
+def rejectedCode = jsonResponse.RejectedCode;
+log.info("Código de rechazo: " + rejectedCode);
+//assert rejectedCode == "TE29"; // Aserción para el campo RejectedCode
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:loadTest id="a5b75414-bfbf-4586-90ba-c6a5ac5747d7" name="VOL-MSB-SIM"><con:settings/><con:threadCount>1</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>3</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694  </con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560635600070438</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>sygateway_user</con:value></con:property><con:property><con:name>password</con:name><con:value>sB5I2lRO5Jxh1ia47S7KvnyLR</con:value></con:property><con:property><con:name>Nm</con:name><con:value>Bancaribe</con:value></con:property><con:property><con:name>codBanco</con:name><con:value>0114</con:value></con:property><con:property><con:name>id</con:name><con:value>J501617694</con:value></con:property><con:property><con:name>CNTA</con:name><con:value>01140560645604049638</con:value></con:property><con:property><con:name>CMCN</con:name><con:value>C000021</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
