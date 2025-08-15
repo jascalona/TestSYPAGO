@@ -59,7 +59,7 @@ _Es necesario que antes de empezar se asegure de conectarse al ambiente correcto
 
 _Una vez conectado al ambiente puede desplegar la taza de de los containers para llevar un seguimiento de las transacciones_
 
-### Container Gateway
+### Container Gatewayv1
 
 ```
 sudo docker logs -f sypago_gateway_ms
