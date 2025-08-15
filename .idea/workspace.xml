@@ -11,8 +11,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a0bad1ea-beb6-4940-a4c1-fdd31d90451c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Labels/TransactionIdGV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Labels/TransactionIdGV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Labels/TransactionIdGV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Labels/TransactionIdGV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/DatosBancaribe.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/DatosIBPs.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/GeneradorStrings.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/GeneradorTransactionID.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/TestGatewayV1-soapui-project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/ValidarAssertion.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Import.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Import.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/TestSYPAGO-soapui-project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/casobancaribetest/CasoBancaribeTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
