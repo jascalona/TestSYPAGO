@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0bad1ea-beb6-4940-a4c1-fdd31d90451c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/TestSYPAGO-soapui-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/TestSYPAGO-soapui-project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Labels/TransactionIdGV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Labels/TransactionIdGV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Labels/TransactionIdGV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Labels/TransactionIdGV2.class" afterDir="false" />
     </list>
