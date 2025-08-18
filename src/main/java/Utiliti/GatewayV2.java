@@ -125,7 +125,7 @@ public class GatewayV2 {
     public static void main(String[] args) {
         String username = "sygateway_user";
         String password = "sB5I2lRO5Jxh1ia47S7KvnyLR";
-        String transactionId = null; // Usando el ID de ejemplo del prompt
+        String transactionId = "E05F492BD040"; // Usando el ID de ejemplo del prompt
         // String transactionId = transactionIdGenerator.TransactionId(8); // Para un ID dinámico
 
         // URL base para el endpoint de la API
