@@ -3535,7 +3535,7 @@ import java.util.Random;
 
 def excelFilePath = "C:\\Import.xlsx"; //Ruta absoluta
 
-def ReceptorIBPs = Index.readExcelData(excelFilePath,4);
+def ReceptorIBPs = Index.readExcelData(excelFilePath,2);
 
 /****Instancia Random****/
 def randomIBPs = new Random().nextInt(ReceptorIBPs.size()); //Definicion de las filas dentro de la hola
@@ -3567,7 +3567,7 @@ import Labels.GeneratorNum;
 def longitud= 1;
 //Llamatodo dle metodo y clase 
 def amtRandom = Labels.GeneratorNum.AMT(longitud);
-context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-00-Iniciacion Other IBPs" id="503d6292-907a-47fd-8d55-3a07a09a4f5d" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-00-Iniciacion Other IBPs" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-00-Iniciacion Other IBPs" id="503d6292-907a-47fd-8d55-3a07a09a4f5d"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-00-Iniciacion Other IBPs" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.Transaction(8)}",
     "UserId": "371D2E119F49",
@@ -3609,8 +3609,8 @@ context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testS
         "UserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
         "LinkUserId": "0efe4730-9c2c-457d-a736-675a58c4e87c",
         "Account": {
-            "Id": "${=context.listRecepIBPs [${=context.ListRandom}].cuenta}",
-            "Tp": "CNTA"
+            "Id": "${=context.listRecepIBPs [${=context.ListRandom}].tlf}",
+            "Tp": "CELE"
         },
         "Document": {
             "Id": "${=context.listRecepIBPs [${=context.ListRandom}].id}",
@@ -3685,7 +3685,7 @@ log.info("Código de rechazo: " + rejectedCode);
 def isSuccessful = status == "ACCP" || rejectedCode == "MD15";
 
 // La aserción fallará si 'isSuccessful' es falso.
-assert isSuccessful : "El estado fue: ${status} y el código de rechazo fue: ${rejectedCode}";</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-01-Iniciacion" id="4210222e-89b6-42b5-9289-86686297297e"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-01-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
+assert isSuccessful : "El estado fue: ${status} y el código de rechazo fue: ${rejectedCode}";</scriptText></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#password}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GV2-EST-DOM-01-Iniciacion" id="4210222e-89b6-42b5-9289-86686297297e" disabled="true"><con:settings/><con:config service="http://10.0.62.20:8086" resourcePath="/api/v1/transaction" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GV2-EST-DOM-01-Iniciacion" id="735343a0-cb16-49ff-991d-662930c79ead" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://10.0.62.20:8088</con:endpoint><con:request>{
     "TraceId": "2B1455C1302E",
     "TransactionId": "${=Labels.TransactionIdGV2.Transaction(8)}",
     "UserId": "371D2E119F49",

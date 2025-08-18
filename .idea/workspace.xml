@@ -11,15 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0bad1ea-beb6-4940-a4c1-fdd31d90451c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/DatosBancaribe.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/DatosIBPs.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/GeneradorStrings.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/GeneradorTransactionID.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/TestGatewayV1-soapui-project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Groovy-GatewayV1/ValidarAssertion.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Import.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Import.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/TestSYPAGO-soapui-project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/casobancaribetest/CasoBancaribeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/TestGateway-soapui-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/TestGateway-soapui-project.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GatewayV2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.GatewayV2 (2).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GatewayV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GeneratorNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Index.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SYPAGOBancaribe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SYPAGOapi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SYPAGOcredit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SYPAGOopt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TransactionIdGV2.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Gateway&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bdsyc/OneDrive/Documentos/NetBeansProjects/CasoBancaribeTest&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.validation&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GatewayV2 (1).executor": "Run",
+    "Application.GatewayV2 (2).executor": "Debug",
+    "Application.GatewayV2.executor": "Run",
+    "Application.GeneratorNum.executor": "Run",
+    "Application.Index.executor": "Run",
+    "Application.SYPAGOBancaribe.executor": "Run",
+    "Application.SYPAGOapi.executor": "Run",
+    "Application.SYPAGOcredit.executor": "Run",
+    "Application.SYPAGOopt.executor": "Run",
+    "Application.TransactionIdGV2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#1 on Gateway",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/bdsyc/OneDrive/Documentos/NetBeansProjects/CasoBancaribeTest/src/main/java/Data",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.validation"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bdsyc\OneDrive\Documentos\NetBeansProjects\CasoBancaribeTest\src\main\java\Data" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.TransactionIdGV2">
     <configuration name="GatewayV2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Utiliti.GatewayV2" />
