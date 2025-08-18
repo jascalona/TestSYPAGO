@@ -86,9 +86,16 @@ _Hasta el momento solo se validara los sub-productos (002, 003)_
 "SubProduct": "003"
 ```
 
-### Descriptcion de los test realizados ⌨️
+### Descriptcion de los test realizados GV1 ⌨️
 
 ```
 https://docs.google.com/spreadsheets/d/1bPkuB1btwiFyQ4Kx1ihZ0arBCkBHAgzHdLjw5upm_jc/edit?gid=0#gid=0
+```
+
+
+### Descriptcion de los test realizados GV2 ⌨️
+
+```
+https://docs.google.com/spreadsheets/d/1sBUMJrW_RO3AlfyXLleeZ27f8ICrYOj2eAqJGaT3jNQ/edit?gid=0#gid=0
 ```
 
