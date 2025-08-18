@@ -25,7 +25,51 @@ public class SYPAGOcredit {
 
         // Construir el cuerpo de la solicitud JSON
         try (DataOutputStream os = new DataOutputStream(connection.getOutputStream())) {
-            String jsonInputString = "{\"internal_id\": \"" + internal_id + "\" }";
+
+            // 1. Simula la generación de datos dinámicos
+            String groupId = "7g8h9i0j1k2l";
+            double amt = 1;
+            String bancoCode = "0001";
+            String cuentaNumero = "00018349143957065141";
+            String nombreDestinatario = "Cliente BanPlus Juridico";
+            String docTipoDestinatario = "J";
+            String docNumeroDestinatario = "311845852";
+            String bancoDestinatario = "0174";
+            String tlfDestinatario = "04129854529";
+
+            // 2. Construye el JSON usando concatenación de cadenas
+            String jsonInputString = "{"
+                    + "\"internal_id\": \"" + internal_id + "\","
+                    + "\"group_id\": \"" + groupId + "\","
+                    + "\"account\": {"
+                    + "\"bank_code\": \"" + bancoCode + "\","
+                    + "\"type\": \"CNTA\","
+                    + "\"number\": \"" + cuentaNumero + "\""
+                    + "},"
+                    + "\"sub_product\": \"220\","
+                    + "\"amount\": {"
+                    + "\"amt\": " + amt + ","
+                    + "\"currency\": \"VES\","
+                    + "\"use_day_rate\": false"
+                    + "},"
+                    + "\"concept\": \"Pago de servicios\","
+                    + "\"notification_urls\": {"
+                    + "\"web_hook_endpoint\": \"https://www.sypago.com/notification\""
+                    + "},"
+                    + "\"receiving_user\": {"
+                    + "\"name\": \"" + nombreDestinatario + "\","
+                    + "\"document_info\": {"
+                    + "\"type\": \"" + docTipoDestinatario + "\","
+                    + "\"number\": \"" + docNumeroDestinatario + "\""
+                    + "},"
+                    + "\"account\": {"
+                    + "\"bank_code\": \"" + bancoDestinatario + "\","
+                    + "\"type\": \"CELE\","
+                    + "\"number\": \"" + tlfDestinatario + "\""
+                    + "}"
+                    + "}"
+                    + "}";
+
             os.writeBytes(jsonInputString);
             os.flush();
         }
@@ -59,15 +103,16 @@ public class SYPAGOcredit {
                 //Si el flujo de error no esta disponible, se ignora
             }
             connection.disconnect();
-            throw new RuntimeException("La solicitud HTTP falló con el código: " + responseCode + ". Detalles de Error: "  + errorResponse.toString());
+            return errorResponse.toString();
+            //throw new RuntimeException("La solicitud HTTP falló con el código: " + responseCode + ". Detalles de Error: "  + errorResponse.toString());
         }
     }
 
     public static void main(String [] args){
 
-        String Token = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmZXpQcl9HSWhIZ05jOVc1cU5Td2FIQXBRMVRqeUlqbWtpY0d5V1hHUjFzIn0.eyJleHAiOjE3NTUxMjUzMTksImlhdCI6MTc1NTA4OTMxOSwianRpIjoiYjBlNTM1NGYtOTJhZC00ZjgzLTk5OTMtZDMwMmU1NjgxZWE5IiwiaXNzIjoiaHR0cHM6Ly9wcnVlYmFzLnN5cGFnby5uZXQ6ODA4MS9yZWFsbXMvc3lwYWdvIiwic3ViIjoiNjM2Mjc0ZDktZGU0YS00Y2VhLWI4ZTMtNTBhZWU4YjY2NTZkIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiam9zZSIsInNjb3BlIjoic3lwYWdvX2FwaV9rZXlfc2NvcGU6NTVhNGVjMzktNDI0Zi00NDIzLWI5MTgtYjgxMWZkMDQ3OTk2LlVzZXIiLCJjbGllbnRIb3N0IjoiMTcyLjIwLjAuMSIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjAuMC4xIiwiY2xpZW50X2lkIjoiam9zZSJ9.oQnzC1-mk-ARdo5X5NfV5eWahWOBDpR8w9Ha5x8OXkPn2UQrZei2sDka4B_V_A6r3oiK5-w0jx0W5NhzWNr28FLeov_1AKNBEBL1TrCxuYMmXHESeFBc3d3CQzpFBYLRyEkaqV0T6-aMfYjHqTSJSu2NyIMVW56ahFh1wzjGwEMSzSXhivgw0pligFzW8WX7B3SNcy-nYs9ya5e18YnuQxsfK9qj6KRWbVnPzDy8sIsBOwzw3cKWwvlzz0O-hgzBVAVxkIOOQNyje3ufhegBopFDmSSzBf4N49MqWasIk9i2dkKzhOREKti2sVIJ1RyQSot-Gvac5sz5gxByUnLtGA";
+        String Token = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmZXpQcl9HSWhIZ05jOVc1cU5Td2FIQXBRMVRqeUlqbWtpY0d5V1hHUjFzIn0.eyJleHAiOjE3NTU1NjM5NDcsImlhdCI6MTc1NTUyNzk0NywianRpIjoiNjE1MmZiNDEtZTAyNi00MjdlLWExNjMtOTM3MTZjMjNmZDM0IiwiaXNzIjoiaHR0cHM6Ly9wcnVlYmFzLnN5cGFnby5uZXQ6ODA4MS9yZWFsbXMvc3lwYWdvIiwic3ViIjoiNTc1NTk1YmItNTMyMy00MjkyLWI2NzktNWZiZDEzNmVmN2EzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiam9zZSIsInNjb3BlIjoic3lwYWdvX2FwaV9rZXlfc2NvcGU6NTVhNGVjMzktNDI0Zi00NDIzLWI5MTgtYjgxMWZkMDQ3OTk2LlVzZXIiLCJjbGllbnRIb3N0IjoiMTcyLjIwLjAuMSIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjAuMC4xIiwiY2xpZW50X2lkIjoiam9zZSJ9.PaqPLZBi86PAJLCOkhhU3VMwMt9mi7n6oNtrlo2SCnwamwsP58wZULVxq-GzW6klB0CP4oJsWztpO-r0UIpwGwKuPvtnwrKZk8SnG3RdECWkRtSL8_dCq0dkq2mE-nykSqNdIQH-8lbDPgLtTNyaaXOGmH5XFo6T2vrOEM9YHRpmrl_dMRkIJ6gbm53fJ37yyrrX2j2n7eWL826aOXTCyfg4Qe6zVSWwm27D96vNpCLtOvCJ0agWhaS4ahkfXM4pH7py9ckmeYDmxNAAAKXScorWZduSUT4zdTXCnp7iwFKQzbsmMfcsvI783pXecMAowZqDiII3tPjTrZn6PK7h-g";
         String urlAPI = "https://pruebas.sypago.net:8086/api/v1/transaction/credit";
-        String internal_id = "B30E237C80F2";
+        String internal_id = "";
 
         try{
             System.out.println("Iniciando Credito SYPAGO....");
