@@ -17,7 +17,7 @@ public class SYPAGOcredit {
 
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
-        connection.setRequestMethod("POST");
+        connection.setRequestMethod("GET");
         connection.setDoOutput(true);
         // Correcto: se envía el token directamente
         connection.setRequestProperty("Authorization", "Bearer " + Token);
