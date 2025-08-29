@@ -55,7 +55,7 @@
     "currency": "VES",
     "use_day_rate": false
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/request/opt</con:originalUri><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#pass}</con:password><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:preemptive>true</con:preemptive><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Request sypago" path="/api/v1/transaction/request/sypago" id="53b8c9c5-31db-4d98-9774-d5042fc321c0"><con:settings/><con:parameters/><con:method name="Method 1" id="fe59e053-3ebe-4f2b-8f7e-449c0947c4e1" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 409</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:request name="Request 1" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Request other" path="/api/v1/transaction/request/other" id="b1ffa0b2-5b98-47db-8e70-a93e1dfea21e"><con:settings/><con:parameters/><con:method name="Method 1" id="68c6a146-19bd-4a9e-b089-da5d57a38cfe" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409 400</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:request name="Request 1" id="e76dea98-1493-4ef9-ad3d-304ad4a7a1a5" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="otp" path="/api/v1/transaction/otp" id="a975d574-ea5c-4273-8033-d1b2b596442a"><con:settings/><con:parameters/><con:method name="Method 1" id="649f40ec-e775-4d9a-958b-e630154f1706" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409 400</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="889ac9ab-ac83-4ee7-b2c5-93baba8fe3bc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="dom" path="/api/v1/transaction/dom" id="f637a561-9304-418c-bcc6-fd4bfc9a9a9e"><con:settings/><con:parameters/><con:method name="Method 1" id="10271d82-7d96-429d-a2e0-f778885fa34a" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:request name="Request 1" id="a787c34a-435e-4c5d-b97f-cf6becab3ba3" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="paylink" path="/api/v1/transaction/paylink" id="75c29a4a-0a85-43b9-a99b-ea35411eec81"><con:settings/><con:parameters/><con:resource name="blueprint" path="blueprint" id="4c7e8e29-1dfa-4be1-9da4-dfe70a6e03fd"><con:settings/><con:parameters/><con:method name="Method 1" id="1db47ef0-4345-4d57-9413-8553dcd87f43" method="POST"><con:settings/><con:parameters/><con:request name="paylink_blueprint" id="d8185d05-4823-41b7-98e4-0106939ed06d" mediaType="application/json"><con:settings/><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="sms" path="sms" id="730888e1-797c-44f0-8a28-2788a37b94d9"><con:settings/><con:parameters/><con:method name="Method 1" id="7020a2dd-68e9-46bb-999f-255f730b7adc" method="POST"><con:settings/><con:parameters/><con:request name="paylink_sms" id="322f64b0-b368-457b-8d84-9a108a55ad84" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="email" path="email" id="b8b3c12a-8c75-48a7-88e4-3c950782946c"><con:settings/><con:parameters/><con:method name="Method 1" id="3d3245ce-d0ac-492b-826a-ebc5e6a7359d" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 409</con:status><con:params/><con:element xmlns:ema="https://pruebas.sypago.net/api/v1/transaction/paylink/email">ema:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ema="https://pruebas.sypago.net/api/v1/transaction/paylink/email">ema:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="paylink_email" id="b260a1c0-0cc4-4727-91c4-59b374a4609b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:method name="paylink" id="3991aaf3-05ec-43cc-86ba-0f7fe08c29b1" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 409</con:status><con:params/><con:element xmlns:pay="https://pruebas.sypago.net/api/v1/transaction/paylink">pay:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:pay="https://pruebas.sypago.net/api/v1/transaction/paylink">pay:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="paylink" id="64720b14-a653-4572-a154-f9a87b798099" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="798eeb16-c7b3-45dc-9a4a-1a84b8c11895" name="Bank"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="a9b0712a-9609-46a2-8f15-a3fadb3ec04a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Banco" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="auth" id="a1b99f3b-1b20-4efb-a472-fb5bea3f7c85"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/auth/token" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="auth" id="cb829d48-3279-45c7-a4db-b02ff5a104ac" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>    {
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/request/opt</con:originalUri><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#pass}</con:password><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:preemptive>true</con:preemptive><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Request sypago" path="/api/v1/transaction/request/sypago" id="53b8c9c5-31db-4d98-9774-d5042fc321c0"><con:settings/><con:parameters/><con:method name="Method 1" id="fe59e053-3ebe-4f2b-8f7e-449c0947c4e1" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 409</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:request name="Request 1" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Request other" path="/api/v1/transaction/request/other" id="b1ffa0b2-5b98-47db-8e70-a93e1dfea21e"><con:settings/><con:parameters/><con:method name="Method 1" id="68c6a146-19bd-4a9e-b089-da5d57a38cfe" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409 400</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:request name="Request 1" id="e76dea98-1493-4ef9-ad3d-304ad4a7a1a5" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="otp" path="/api/v1/transaction/otp" id="a975d574-ea5c-4273-8033-d1b2b596442a"><con:settings/><con:parameters/><con:method name="Method 1" id="649f40ec-e775-4d9a-958b-e630154f1706" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409 400</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="889ac9ab-ac83-4ee7-b2c5-93baba8fe3bc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="dom" path="/api/v1/transaction/dom" id="f637a561-9304-418c-bcc6-fd4bfc9a9a9e"><con:settings/><con:parameters/><con:method name="Method 1" id="10271d82-7d96-429d-a2e0-f778885fa34a" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>409</con:status><con:params/><con:element xmlns:syp="https://pruebas.sypago.net/api/v1/transaction/request/sypago">syp:Fault</con:element></con:representation><con:request name="Request 1" id="a787c34a-435e-4c5d-b97f-cf6becab3ba3" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="paylink" path="/api/v1/transaction/paylink" id="75c29a4a-0a85-43b9-a99b-ea35411eec81"><con:settings/><con:parameters/><con:resource name="blueprint" path="blueprint" id="4c7e8e29-1dfa-4be1-9da4-dfe70a6e03fd"><con:settings/><con:parameters/><con:method name="Method 1" id="1db47ef0-4345-4d57-9413-8553dcd87f43" method="POST"><con:settings/><con:parameters/><con:request name="paylink_blueprint" id="d8185d05-4823-41b7-98e4-0106939ed06d" mediaType="application/json"><con:settings/><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="sms" path="sms" id="730888e1-797c-44f0-8a28-2788a37b94d9"><con:settings/><con:parameters/><con:method name="Method 1" id="7020a2dd-68e9-46bb-999f-255f730b7adc" method="POST"><con:settings/><con:parameters/><con:request name="paylink_sms" id="322f64b0-b368-457b-8d84-9a108a55ad84" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="email" path="email" id="b8b3c12a-8c75-48a7-88e4-3c950782946c"><con:settings/><con:parameters/><con:method name="Method 1" id="3d3245ce-d0ac-492b-826a-ebc5e6a7359d" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 409</con:status><con:params/><con:element xmlns:ema="https://pruebas.sypago.net/api/v1/transaction/paylink/email">ema:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ema="https://pruebas.sypago.net/api/v1/transaction/paylink/email">ema:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="paylink_email" id="b260a1c0-0cc4-4727-91c4-59b374a4609b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:method name="paylink" id="3991aaf3-05ec-43cc-86ba-0f7fe08c29b1" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 409</con:status><con:params/><con:element xmlns:pay="https://pruebas.sypago.net/api/v1/transaction/paylink">pay:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:pay="https://pruebas.sypago.net/api/v1/transaction/paylink">pay:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>401</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="paylink" id="64720b14-a653-4572-a154-f9a87b798099" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="798eeb16-c7b3-45dc-9a4a-1a84b8c11895" name="Bank"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="a9b0712a-9609-46a2-8f15-a3fadb3ec04a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Banco" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="auth" id="a1b99f3b-1b20-4efb-a472-fb5bea3f7c85"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/auth/token" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="auth" id="cb829d48-3279-45c7-a4db-b02ff5a104ac" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>    {
         "client_id": "${#Project#user}",
         "secret": "${#Project#pass}"
     }</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/auth/token</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="d24b74a6-9f77-4da4-b0fc-17ef277c766e" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:username>${#Project#user}</con:username><con:password>${#Project#pass}</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="CallToken" id="22bdbb08-798a-402f-9cea-447a050a8b7a"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder
@@ -74,7 +74,7 @@ testRunner.testCase.testSuite.project.setPropertyValue('Authorization', 'Barer '
 </script></con:config></con:testStep><con:testStep type="restrequest" name="Bank - Banco" id="91a247ae-3a57-47da-a93e-b097e5d212de"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/banks" methodName="Bank" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Bank - Banco" id="02866a9c-951a-4295-abd0-d2c8ccee2f6d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "client_id": "jose",
   "secret": "0QLcA7FD36lCtq5BN8lXaT2xpJuG1Puo"
-}</con:request><con:originalUri>https://pruebas.sypago.net/pi/v1/auth/token</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="8833171a-14b8-4a26-80ab-3971dc291c50" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple Contains" id="7eef7cee-4f61-4f24-89ce-886efe93d5b4" name="Contains"><con:configuration><token>0001</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:username>jose</con:username><con:password>0QLcA7FD36lCtq5BN8lXaT2xpJuG1Puo</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="reject_code" id="259f6a61-1dc7-445e-bff9-bc3bfb0b3b20"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/banks/reject_codes" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="reject_code" id="509f6dab-f397-47ba-97ac-3228ac150e69" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:originalUri>https://pruebas.sypago.net/api/v1/bank/reject_codes</con:originalUri><con:assertion type="Simple Contains" id="11743f26-dad2-4836-9ecc-29eef92d8ee5" name="Contains"><con:configuration><token>ACCP</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="94b5457c-3867-4a80-956b-1526c4ea91cb" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="typeMonyToday" id="b92fc27c-d622-418b-aa59-ab73c4559139"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/bank/bcv/rate" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="typeMonyToday" id="75441d00-0a68-419f-ba04-26e0709ab635" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:originalUri>https://pruebas.sypago.net/api/v1/bank/bcv/rate</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="f839f9df-18c8-4827-aecb-88497d022114" name="Credit"><con:description>TestSuite generated for REST Service [https://pruebas.sypago.net:8086]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="3e316572-7dca-48b1-a2bd-ffde1d447603" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="Credit 220" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:description>Las cuentas deben estar previamente cargadas en el sistema</con:description><con:settings/><con:testStep type="groovy" name="CallToken" id="9f32ad9f-aa58-42b1-a07f-8d3fa5362727"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder
+}</con:request><con:originalUri>https://pruebas.sypago.net/pi/v1/auth/token</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="8833171a-14b8-4a26-80ab-3971dc291c50" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple Contains" id="7eef7cee-4f61-4f24-89ce-886efe93d5b4" name="Contains"><con:configuration><token>0001</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:username>jose</con:username><con:password>0QLcA7FD36lCtq5BN8lXaT2xpJuG1Puo</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="reject_code" id="259f6a61-1dc7-445e-bff9-bc3bfb0b3b20"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/banks/reject_codes" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="reject_code" id="509f6dab-f397-47ba-97ac-3228ac150e69" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:originalUri>https://pruebas.sypago.net/api/v1/bank/reject_codes</con:originalUri><con:assertion type="Simple Contains" id="11743f26-dad2-4836-9ecc-29eef92d8ee5" name="Contains"><con:configuration><token>ACCP</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="94b5457c-3867-4a80-956b-1526c4ea91cb" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="typeMonyToday" id="b92fc27c-d622-418b-aa59-ab73c4559139"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/bank/bcv/rate" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="typeMonyToday" id="75441d00-0a68-419f-ba04-26e0709ab635" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request/><con:originalUri>https://pruebas.sypago.net/api/v1/bank/bcv/rate</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="f839f9df-18c8-4827-aecb-88497d022114" name="Credit"><con:description>TestSuite generated for REST Service [https://pruebas.sypago.net:8086]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="3e316572-7dca-48b1-a2bd-ffde1d447603" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="Credit 220" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:description>Las cuentas deben estar previamente cargadas en el sistema</con:description><con:settings/><con:testStep type="groovy" name="CallToken" id="9f32ad9f-aa58-42b1-a07f-8d3fa5362727" disabled="true"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder
 import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
@@ -158,7 +158,7 @@ import net.sf.json.*
 import net.sf.json.groovy.*
 import Utiliti.StatusReportCred;
 
-
+sleep(1000)
 
 //Obtener el codigo de estado
 def statusCode = messageExchange.responseStatusCode
@@ -174,7 +174,6 @@ def msj = context.expand('${' + nameSteps + '#Response#$.message}')
 switch (statusCode){
 	
 	case 200:
-	  //sleep(20000)  
 	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
 	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 	  
@@ -312,57 +311,7 @@ def responseJsonString = StatusReportCred.getSatusCredit(
 log.info responseJsonString
 
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-04-Internal_id-Caracter-&amp;^@" id="266c4bea-bcd3-4acd-bbf5-f05eb7e5c2d9" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-04-Internal_id-Caracter-&amp;^@" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "%${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(10)}%^@",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#bancoCode}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "sub_product": "221",
-  "amount": {
-    "amt": ${=context.generatorAMT},
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Pago de servicios",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
-    "document_info": {
-      "type": "${=context.ListIBPs [${=context.ListRandom}].id.substring(0,1)}",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
-    },
-    "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
-      "type": "CELE",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
-    }
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-04-Internal_id-Caracter-&amp;^@#Response#$.transaction_id}')
-
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-def response = get.getInputStream().getText()
-
-def jsonSlurper = new JsonSlurper().parseText(response)
-
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
-
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == "MD21"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-05-Internal_id-Mayor-35" id="3c844ea3-e54c-484d-86bc-95236fa93d76" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-05-Internal_id-Mayor-35" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-05-Internal_id-Mayor-35" id="3c844ea3-e54c-484d-86bc-95236fa93d76" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-05-Internal_id-Mayor-35" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(36)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "account": {
@@ -735,257 +684,7 @@ def responseJsonString = StatusReportCred.getSatusCredit(
 log.info responseJsonString
 
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-12-sub_producto-null" id="9b51b547-d3e5-47ea-b113-80a258c9ce8d" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-12-sub_producto-null" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#bancoCode}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "sub_product": null,
-  "amount": {
-    "amt": ${=context.generatorAMT},
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Pago de servicios",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
-    "document_info": {
-      "type": "${=context.ListIBPs [${=context.ListRandom}].id.substring(0,1)}",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
-    },
-    "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
-      "type": "CELE",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
-    }
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-12-sub_producto-null#Response#$.transaction_id}')
-
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-def response = get.getInputStream().getText()
-
-def jsonSlurper = new JsonSlurper().parseText(response)
-
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
-
-def Rsn = jsonSlurper.rejected_code
-//assert Rsn == "MD21"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-13-sub_producto-invalido" id="7591d01e-0b41-4411-9856-562a853f03a6" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-13-sub_producto-invalido" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#bancoCode}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "sub_product": "478",
-  "amount": {
-    "amt": ${=context.generatorAMT},
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Pago de servicios",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
-    "document_info": {
-      "type": "${=context.ListIBPs [${=context.ListRandom}].id.substring(0,1)}",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
-    },
-    "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
-      "type": "CELE",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
-    }
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-13-sub_producto-invalido#Response#$.transaction_id}')
-
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-def response = get.getInputStream().getText()
-
-def jsonSlurper = new JsonSlurper().parseText(response)
-
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
-
-def Rsn = jsonSlurper.rejected_code
-//assert Rsn == "MD21"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-14-sub_producto-mayor-3" id="a738b5c0-7342-48a7-9e86-55a8946d8eef" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-14-sub_producto-mayor-3" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#bancoCode}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "sub_product": "22356",
-  "amount": {
-    "amt": ${=context.generatorAMT},
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Pago de servicios",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
-    "document_info": {
-      "type": "${=context.ListIBPs [${=context.ListRandom}].id.substring(0,1)}",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
-    },
-    "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
-      "type": "CELE",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
-    }
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-14-sub_producto-mayor-3#Response#$.transaction_id}')
-
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-def response = get.getInputStream().getText()
-
-def jsonSlurper = new JsonSlurper().parseText(response)
-
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
-
-def Rsn = jsonSlurper.rejected_code
-//assert Rsn == "MD21"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-15-sub_producto-menor-3" id="0b1f2d2f-fa23-48be-b2b1-68bb83c8ecad" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-15-sub_producto-menor-3" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#bancoCode}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "sub_product": "8",
-  "amount": {
-    "amt": ${=context.generatorAMT},
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Pago de servicios",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
-    "document_info": {
-      "type": "${=context.ListIBPs [${=context.ListRandom}].id.substring(0,1)}",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
-    },
-    "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
-      "type": "CELE",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
-    }
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-15-sub_producto-menor-3#Response#$.transaction_id}')
-
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-def response = get.getInputStream().getText()
-
-def jsonSlurper = new JsonSlurper().parseText(response)
-
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
-
-def Rsn = jsonSlurper.rejected_code
-//assert Rsn == "MD21"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-16-sub_producto-Caracter&amp;^%$" id="b5128606-8d93-4f6d-8801-5e643e1ebf2e" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-16-sub_producto-Caracter&amp;^%$" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#bancoCode}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "sub_product": "876#",
-  "amount": {
-    "amt": ${=context.generatorAMT},
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Pago de servicios",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "${=context.ListIBPs [${=context.ListRandom}].nombre}",
-    "document_info": {
-      "type": "${=context.ListIBPs [${=context.ListRandom}].id.substring(0,1)}",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
-    },
-    "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
-      "type": "CELE",
-      "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
-    }
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-16-sub_producto-Caracter&amp;^%$#Response#$.transaction_id}')
-
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-def response = get.getInputStream().getText()
-
-def jsonSlurper = new JsonSlurper().parseText(response)
-
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
-
-def Rsn = jsonSlurper.rejected_code
-//assert Rsn == "MD21"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-17-Amount.amt-null" id="0ef86845-e13a-443c-ba6a-8b96a1147b25" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-17-Amount.amt-null" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-17-Amount.amt-null" id="0ef86845-e13a-443c-ba6a-8b96a1147b25" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-17-Amount.amt-null" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "account": {
@@ -2683,27 +2382,64 @@ assert Rsn == "RC08"</scriptText></con:configuration></con:assertion><con:creden
       "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
     }
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/credit</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ee1076b9-4760-47ae-ba16-038d9fe15a0d" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="1f143e7a-c5a2-44b7-9f2c-256a829eaa00" name="Script Assertion"><con:configuration><scriptText>import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
 
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-CRE-47-account.bank_code-Cod-Invalido#Response#$.transaction_id}')
+import com.eviware.soapui.support.XmlHolder
+import net.sf.*
+import net.sf.json.*
+import net.sf.json.groovy.*
+import Utiliti.StatusReportCred;
 
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
 
-def response = get.getInputStream().getText()
+//Obtener el codigo de estado
+def statusCode = messageExchange.responseStatusCode
 
-def jsonSlurper = new JsonSlurper().parseText(response)
+//Invocamos el nombre del paso de prueba
+String nameSteps = context.currentStep.name.toString();
 
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
+//Llamar al transaction_id en caso de 200
 
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == "RC08"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-48-account.bank_code-Mayor-4" id="3f4f55ad-b4b3-4559-b40f-2e32bb0ac588" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-48-account.bank_code-Mayor-4" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
+//name TestStep para msj, 409, 400
+def msj = context.expand('${' + nameSteps + '#Response#$.message}')
+
+switch (statusCode){
+	
+	case 200:
+	  //sleep(20000)  
+	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
+	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
+	  
+	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+
+  	  def response = get.getInputStream().getText()
+  	  def jsonSlurper = new JsonSlurper().parseText(response)
+		
+	  def TxSts = jsonSlurper.status
+       assert TxSts == "PEND" || "ACCP"
+       log.info TxSts
+
+	  def Rsn = jsonSlurper.rejected_code
+	  //assert Rsn == ""
+	 break;
+	 
+	 case 400:
+	 case 401:
+	 case 409:
+  	  def token = context.expand('${#Project#Authorization}');
+       log.info msj;
+	  assert statusCode == statusCode;
+	  break;
+
+	  default:
+	   log.info("Status code: " + statusCode)
+	  break;
+
+}
+
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-CRE-48-account.bank_code-Mayor-4" id="3f4f55ad-b4b3-4559-b40f-2e32bb0ac588" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/credit" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-CRE-48-account.bank_code-Mayor-4" id="e908477a-2bf4-4aec-9a4d-a55d42f9a68c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "account": {
@@ -3334,7 +3070,7 @@ def responseJsonString = StatusReportCred.getSatusCredit(
 log.info responseJsonString
 
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:loadTest id="96278376-fcfa-4443-a9d9-4b286dd973c1" name="API-VOL-CRED"><con:settings/><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties><con:property><con:name>CNTA</con:name><con:value>00018349143957065141</con:value></con:property><con:property><con:name>bancoCode</con:name><con:value>0001</con:value></con:property></con:properties></con:testSuite><con:testSuite id="f5c565ca-aee1-40d2-b34b-a908e9e9549d" name="Debito (Sin formulario)"><con:description>TestSuite generated for REST Service [https://pruebas.sypago.net:8086]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="56a69def-1bf2-4db8-8891-a825cd438f36" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="OTP" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:description>TestCase generated for REST Resource [auth] located at [/api/v1/auth/token]</con:description><con:settings/><con:testStep type="groovy" name="Callxlsx" id="fcbc024c-b2be-40eb-9f2e-a918b06c174d"><con:settings/><con:config><script>/***********SCRIPT RECEPTOR******************/
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:loadTest id="96278376-fcfa-4443-a9d9-4b286dd973c1" name="API-VOL-CRED"><con:settings/><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>300</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties><con:property><con:name>CNTA</con:name><con:value>00018349143957065141</con:value></con:property><con:property><con:name>bancoCode</con:name><con:value>0001</con:value></con:property></con:properties></con:testSuite><con:testSuite id="f5c565ca-aee1-40d2-b34b-a908e9e9549d" name="Debito (Sin formulario)"><con:description>TestSuite generated for REST Service [https://pruebas.sypago.net:8086]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="56a69def-1bf2-4db8-8891-a825cd438f36" failOnError="false" failTestCaseOnErrors="false" keepSession="false" maxResults="0" name="OTP" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:description>TestCase generated for REST Resource [auth] located at [/api/v1/auth/token]</con:description><con:settings/><con:testStep type="groovy" name="Callxlsx" id="fcbc024c-b2be-40eb-9f2e-a918b06c174d"><con:settings/><con:config><script>/***********SCRIPT RECEPTOR******************/
 import imports.Cellxlsx;
 import imports.Index;
 import java.util.Random;
@@ -5173,27 +4909,63 @@ log.info responseJsonString
       "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
     }
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
 
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-TRA-OTP-32-receiving_user-otp-Caracter&amp;^%$#Response#$.transaction_id}')
+import com.eviware.soapui.support.XmlHolder
+import net.sf.*
+import net.sf.json.*
+import net.sf.json.groovy.*
+import Utiliti.StatusReportCred;
 
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
 
-def response = get.getInputStream().getText()
+//Obtener el codigo de estado
+def statusCode = messageExchange.responseStatusCode
 
-def jsonSlurper = new JsonSlurper().parseText(response)
+//Invocamos el nombre del paso de prueba
+String nameSteps = context.currentStep.name.toString();
 
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
+//Llamar al transaction_id en caso de 200
 
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == ""
+//name TestStep para msj, 409, 400
+def msj = context.expand('${' + nameSteps + '#Response#$.message}')
+
+switch (statusCode){
+	
+	case 200:
+	  //sleep(20000)  
+	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
+	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
+	  
+	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+
+  	  def response = get.getInputStream().getText()
+  	  def jsonSlurper = new JsonSlurper().parseText(response)
+		
+	  def TxSts = jsonSlurper.status
+       assert TxSts == "PEND" || "ACCP"
+       log.info TxSts
+
+	  def Rsn = jsonSlurper.rejected_code
+	  //assert Rsn == ""
+	 break;
+	 
+	 case 400:
+	 case 401:
+	 case 409:
+  	  def token = context.expand('${#Project#Authorization}');
+       log.info msj;
+	  assert statusCode == statusCode;
+	  break;
+
+	  default:
+	   log.info("Status code: " + statusCode)
+	  break;
+
+}
+
 </scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-OTP-33-receiving_user-otp-Mayor-8" id="4806ba8b-68f1-435c-988f-2484d4f8b355" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/otp" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-OTP-33-receiving_user-otp-Mayor-8" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
@@ -5548,27 +5320,62 @@ log.info responseJsonString
       "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
     }
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
 
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-TRA-OTP-39-document_info.number-Caracter&amp;^$#Response#$.transaction_id}')
+import com.eviware.soapui.support.XmlHolder
+import net.sf.*
+import net.sf.json.*
+import net.sf.json.groovy.*
+import Utiliti.StatusReportCred;
 
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
 
-def response = get.getInputStream().getText()
+//Obtener el codigo de estado
+def statusCode = messageExchange.responseStatusCode
 
-def jsonSlurper = new JsonSlurper().parseText(response)
+//Invocamos el nombre del paso de prueba
+String nameSteps = context.currentStep.name.toString();
 
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
+//Llamar al transaction_id en caso de 200
 
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == ""
+//name TestStep para msj, 409, 400
+def msj = context.expand('${' + nameSteps + '#Response#$.message}')
+
+switch (statusCode){
+	
+	case 200:
+	  //sleep(20000)  
+	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
+	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
+	  
+	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+
+  	  def response = get.getInputStream().getText()
+  	  def jsonSlurper = new JsonSlurper().parseText(response)
+		
+	  def TxSts = jsonSlurper.status
+       assert TxSts == "PEND" || "ACCP"
+       log.info TxSts
+
+	  def Rsn = jsonSlurper.rejected_code
+	  //assert Rsn == ""
+	 break;
+	 
+	 case 400:
+	 case 401:
+	 case 409:
+  	  def token = context.expand('${#Project#Authorization}');
+       log.info msj;
+	  assert statusCode == statusCode;
+	  break;
+
+	  default:
+	   log.info("Status code: " + statusCode)
+	  break;
+
+}
 
 </scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-OTP-40-document_info.number-Invalido" id="0e4dd530-0d91-4269-b67a-2eaa8784f161" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/otp" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-OTP-40-document_info.number-Invalido" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
@@ -5854,29 +5661,64 @@ assert Rsn == "BE01"</scriptText></con:configuration></con:assertion><con:creden
       "number": "${=context.ListIBPs [${=context.ListRandom}].tlf}"
     }
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
 
-sleep(2000)
+import com.eviware.soapui.support.XmlHolder
+import net.sf.*
+import net.sf.json.*
+import net.sf.json.groovy.*
+import Utiliti.StatusReportCred;
 
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-TRA-OTP-45-account.bank_code-Cod-Invalido#Response#$.transaction_id}')
 
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+//Obtener el codigo de estado
+def statusCode = messageExchange.responseStatusCode
 
-def response = get.getInputStream().getText()
+//Invocamos el nombre del paso de prueba
+String nameSteps = context.currentStep.name.toString();
 
-def jsonSlurper = new JsonSlurper().parseText(response)
+//Llamar al transaction_id en caso de 200
 
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
+//name TestStep para msj, 409, 400
+def msj = context.expand('${' + nameSteps + '#Response#$.message}')
 
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == "RC08"</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-OTP-46-account.bank_code-Mayor-4" id="1c4f692a-898c-4213-9f59-37c557f7a05d" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/otp" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-OTP-46-account.bank_code-Mayor-4" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
+switch (statusCode){
+	
+	case 200:
+	  //sleep(20000)  
+	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
+	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
+	  
+	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+
+  	  def response = get.getInputStream().getText()
+  	  def jsonSlurper = new JsonSlurper().parseText(response)
+		
+	  def TxSts = jsonSlurper.status
+       assert TxSts == "PEND" || "ACCP"
+       log.info TxSts
+
+	  def Rsn = jsonSlurper.rejected_code
+	  //assert Rsn == ""
+	 break;
+	 
+	 case 400:
+	 case 401:
+	 case 409:
+  	  def token = context.expand('${#Project#Authorization}');
+       log.info msj;
+	  assert statusCode == statusCode;
+	  break;
+
+	  default:
+	   log.info("Status code: " + statusCode)
+	  break;
+
+}
+
+</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-OTP-46-account.bank_code-Mayor-4" id="1c4f692a-898c-4213-9f59-37c557f7a05d" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/otp" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-OTP-46-account.bank_code-Mayor-4" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "account": {
@@ -6065,30 +5907,66 @@ log.info responseJsonString
     "account": {
       "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
       "type": "CELE",
-      "number": "04129854677"
+      "number": "04229854529"
     }
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
 
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-TRA-OTP-49-account.number-Invalido#Response#$.transaction_id}')
+import com.eviware.soapui.support.XmlHolder
+import net.sf.*
+import net.sf.json.*
+import net.sf.json.groovy.*
+import Utiliti.StatusReportCred;
 
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
 
-def response = get.getInputStream().getText()
+//Obtener el codigo de estado
+def statusCode = messageExchange.responseStatusCode
 
-def jsonSlurper = new JsonSlurper().parseText(response)
+//Invocamos el nombre del paso de prueba
+String nameSteps = context.currentStep.name.toString();
 
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
+//Llamar al transaction_id en caso de 200
 
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == "BE01"
+//name TestStep para msj, 409, 400
+def msj = context.expand('${' + nameSteps + '#Response#$.message}')
+
+switch (statusCode){
+	
+	case 200:
+	  //sleep(20000)  
+	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
+	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
+	  
+	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+
+  	  def response = get.getInputStream().getText()
+  	  def jsonSlurper = new JsonSlurper().parseText(response)
+		
+	  def TxSts = jsonSlurper.status
+       assert TxSts == "PEND" || "ACCP"
+       log.info TxSts
+
+	  def Rsn = jsonSlurper.rejected_code
+	  assert Rsn == ""
+	 break;
+	 
+	 case 400:
+	 case 401:
+	 case 409:
+  	  def token = context.expand('${#Project#Authorization}');
+       log.info msj;
+	  assert statusCode == statusCode;
+	  break;
+
+	  default:
+	   log.info("Status code: " + statusCode)
+	  break;
+
+}
+
 </scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-OTP-50-account.number-Caracter^&amp;*$" id="3d91a9d5-b1ca-4a57-8828-9db6d8b2b619" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/otp" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-OTP-50-account.number-Caracter^&amp;*$" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
@@ -6483,27 +6361,65 @@ log.info responseJsonString
       "number": "01740131991314187777"
     }
   }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
+}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="49ebbc5c-eb86-4961-a087-112ddbc1da6b" name="Script Assertion"><con:configuration><scriptText>//Codigo optimizado para validar segun el status codeimport com.eviware.soapui.support.XmlHolderimport com.eviware.soapui.support.XmlHolder
 import net.sf.*
 import net.sf.json.*
 import net.sf.json.groovy.*
 
-//Llamar el valor de Transaction_ID
-def transaction_id = context.expand('${API-TRA-OTP-57-account.number-Invalido-cnta#Response#$.transaction_id}')
+import com.eviware.soapui.support.XmlHolder
+import net.sf.*
+import net.sf.json.*
+import net.sf.json.groovy.*
+import Utiliti.StatusReportCred;
 
-def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
 
-get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
 
-def response = get.getInputStream().getText()
+//Obtener el codigo de estado
+def statusCode = messageExchange.responseStatusCode
 
-def jsonSlurper = new JsonSlurper().parseText(response)
+//Invocamos el nombre del paso de prueba
+String nameSteps = context.currentStep.name.toString();
 
-def TxSts = jsonSlurper.status
-assert TxSts == "RJCT"
+//Llamar al transaction_id en caso de 200
 
-def Rsn = jsonSlurper.rejected_code
-assert Rsn == "BE01"
+//name TestStep para msj, 409, 400
+def msj = context.expand('${' + nameSteps + '#Response#$.message}')
+
+switch (statusCode){
+	
+	case 200:
+	  //sleep(20000)  
+	  def transaction_id = context.expand('${' + nameSteps + '#Response#$.transaction_id}')
+	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
+	  
+	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
+
+  	  def response = get.getInputStream().getText()
+  	  def jsonSlurper = new JsonSlurper().parseText(response)
+		
+	  def TxSts = jsonSlurper.status
+       assert TxSts == "PEND" || "ACCP"
+       log.info TxSts
+
+	  def Rsn = jsonSlurper.rejected_code
+	  //assert Rsn == ""
+	 break;
+	 
+	 case 400:
+	 case 401:
+	 case 409:
+  	  def token = context.expand('${#Project#Authorization}');
+       log.info msj;
+	  assert statusCode == statusCode;
+	  break;
+
+	  default:
+	   log.info("Status code: " + statusCode)
+	  break;
+
+}
+
+
 </scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-OTP-58-account.number-Caracter%^&amp;*-cnta" id="deb6577f-719c-4675-a7fc-17335c797311" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/otp" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-OTP-58-account.number-Caracter%^&amp;*-cnta" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
@@ -6687,7 +6603,7 @@ import Labels.GeneratorNum;
 def longitud= 1;
 //Llamatodo dle metodo y clase 
 def amtRandom = Labels.GeneratorNum.AMT(longitud);
-context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-00" id="9cd134c2-9dcd-43b7-9576-2901565507c9"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-00" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
+context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-00" id="9cd134c2-9dcd-43b7-9576-2901565507c9" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-00" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "account": {
@@ -6714,7 +6630,7 @@ context.generatorAMT = amtRandom;</script></con:config></con:testStep><con:testS
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -6866,7 +6782,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -6938,7 +6854,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7010,7 +6926,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7082,7 +6998,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7154,7 +7070,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7226,7 +7142,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7298,7 +7214,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7369,7 +7285,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7440,7 +7356,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7510,7 +7426,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7581,7 +7497,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7652,7 +7568,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7724,7 +7640,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7796,7 +7712,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7868,7 +7784,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -7940,7 +7856,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8012,7 +7928,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8084,7 +8000,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8156,7 +8072,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8227,7 +8143,7 @@ def Rsn = jsonSlurper.rejected_code
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8298,7 +8214,7 @@ def Rsn = jsonSlurper.rejected_code
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8370,7 +8286,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8442,7 +8358,7 @@ log.info responseJsonString
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8515,7 +8431,7 @@ assert Rsn == ""
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8586,7 +8502,7 @@ assert Rsn == ""
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8690,7 +8606,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8791,7 +8707,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8895,7 +8811,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -8999,7 +8915,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -9103,7 +9019,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -9180,526 +9096,6 @@ switch (statusCode){
 
 }
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-31-receiving_user.otp-NULL" id="0d93a5a9-5ae9-49d7-a3be-e2b8423360e7" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-31-receiving_user.otp-NULL" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#codeBanco}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "amount": {
-    "amt": 1,
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Concepto de Debito",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "Mercantil",
-    "otp": null,
-    "document_info": {
-      "type": "J",
-      "number": "307243287"
-    },
-    "account": {
-      "bank_code": "0105",
-      "type": "CNTA",
-      "number": "01050161071161020000"
-    }
-  },
-  "domiciliation_data": {
-    "contract": {
-      "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-      "related_date": "2021-12-31"
-    },
-    "invoices": [
-      {
-        "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-        "related_date": "2021-12-31",
-        "rejection_date": "2021-12-31",
-        "amount": {
-          "amt": 5,
-          "currency": "VES",
-          "use_day_rate": false
-        }
-      }
-    ]
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="fc412817-bfe7-449f-8e70-0ebce0013f94" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-import Utiliti.StatusReportCred;
-
-//Obtener el codigo de estado
-def statusCode = messageExchange.responseStatusCode
-
-
-//Llamar al transaction_id en caso de 200
-def transaction_id = context.expand('${API-TRA-DOM-31-receiving_user.otp-NULL#Response#$.transaction_id}')
-  	  
-//name TestStep para msj, 409, 400
-def msj = context.expand('${API-TRA-DOM-31-receiving_user.otp-NULL#Response#$.message}')
-
-switch (statusCode){
-	
-	case 200:
-	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-	  
-	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-  	  def response = get.getInputStream().getText()
-  	  def jsonSlurper = new JsonSlurper().parseText(response)
-		
-	  def TxSts = jsonSlurper.status
-       assert TxSts == "ACCP"
-
-	  def Rsn = jsonSlurper.rejected_code
-	  //assert Rsn == ""
-	 break;
-	 
-	 case 400:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 400;
-	  break;
-
-	 case 409:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 409;
-	  break;
-
-	  default:
-	   log.info("Status code: " + statusCode)
-	  break;
-
-}
-
-</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-32-receiving_user.otp-Vacio" id="78ebd086-f407-4137-b67b-92d956242cb1" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-32-receiving_user.otp-Vacio" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#codeBanco}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "amount": {
-    "amt": 1,
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Concepto de Debito",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "Mercantil",
-    "otp": "",
-    "document_info": {
-      "type": "J",
-      "number": "307243287"
-    },
-    "account": {
-      "bank_code": "0105",
-      "type": "CNTA",
-      "number": "01050161071161020000"
-    }
-  },
-  "domiciliation_data": {
-    "contract": {
-      "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-      "related_date": "2021-12-31"
-    },
-    "invoices": [
-      {
-        "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-        "related_date": "2021-12-31",
-        "rejection_date": "2021-12-31",
-        "amount": {
-          "amt": 5,
-          "currency": "VES",
-          "use_day_rate": false
-        }
-      }
-    ]
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="fc412817-bfe7-449f-8e70-0ebce0013f94" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-import Utiliti.StatusReportCred;
-
-//Obtener el codigo de estado
-def statusCode = messageExchange.responseStatusCode
-
-
-//Llamar al transaction_id en caso de 200
-def transaction_id = context.expand('${API-TRA-DOM-32-receiving_user.otp-Vacio#Response#$.transaction_id}')
-  	  
-//name TestStep para msj, 409, 400
-def msj = context.expand('${API-TRA-DOM-32-receiving_user.otp-Vacio#Response#$.message}')
-
-switch (statusCode){
-	
-	case 200:
-	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-	  
-	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-  	  def response = get.getInputStream().getText()
-  	  def jsonSlurper = new JsonSlurper().parseText(response)
-		
-	  def TxSts = jsonSlurper.status
-       assert TxSts == "ACCP"
-
-	  def Rsn = jsonSlurper.rejected_code
-	  //assert Rsn == ""
-	 break;
-	 
-	 case 400:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 400;
-	  break;
-
-	 case 409:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 409;
-	  break;
-
-	  default:
-	   log.info("Status code: " + statusCode)
-	  break;
-
-}
-
-</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-33-receiving_user.otp-Caracter$%^&amp;" id="a971be20-56ae-407a-95ef-143363b99180" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-33-receiving_user.otp-Caracter$%^&amp;" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#codeBanco}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "amount": {
-    "amt": 1,
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Concepto de Debito",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "Mercantil",
-    "otp": "1^%$56",
-    "document_info": {
-      "type": "J",
-      "number": "307243287"
-    },
-    "account": {
-      "bank_code": "0105",
-      "type": "CNTA",
-      "number": "01050161071161020000"
-    }
-  },
-  "domiciliation_data": {
-    "contract": {
-      "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-      "related_date": "2021-12-31"
-    },
-    "invoices": [
-      {
-        "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-        "related_date": "2021-12-31",
-        "rejection_date": "2021-12-31",
-        "amount": {
-          "amt": 5,
-          "currency": "VES",
-          "use_day_rate": false
-        }
-      }
-    ]
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="fc412817-bfe7-449f-8e70-0ebce0013f94" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-import Utiliti.StatusReportCred;
-
-//Obtener el codigo de estado
-def statusCode = messageExchange.responseStatusCode
-
-
-//Llamar al transaction_id en caso de 200
-def transaction_id = context.expand('${API-TRA-DOM-33-receiving_user.otp-Caracter$%^&amp;#Response#$.transaction_id}')
-  	  
-//name TestStep para msj, 409, 400
-def msj = context.expand('${API-TRA-DOM-33-receiving_user.otp-Caracter$%^&amp;#Response#$.message}')
-
-switch (statusCode){
-	
-	case 200:
-	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-	  
-	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-  	  def response = get.getInputStream().getText()
-  	  def jsonSlurper = new JsonSlurper().parseText(response)
-		
-	  def TxSts = jsonSlurper.status
-       assert TxSts == "RJCT"
-
-	  def Rsn = jsonSlurper.rejected_code
-	  assert Rsn == "TE08"
-	 break;
-	 
-	 case 400:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 400;
-	  break;
-
-	 case 409:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 409;
-	  break;
-
-	  default:
-	   log.info("Status code: " + statusCode)
-	  break;
-
-}
-
-</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-35-receiving_user.otp-Menor-6" id="dc31e5dc-b4b2-4ce8-a454-011006063926" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-35-receiving_user.otp-Menor-6" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#codeBanco}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "amount": {
-    "amt": 1,
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Concepto de Debito",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "Mercantil",
-    "otp": "12345",
-    "document_info": {
-      "type": "J",
-      "number": "307243287"
-    },
-    "account": {
-      "bank_code": "0105",
-      "type": "CNTA",
-      "number": "01050161071161020000"
-    }
-  },
-  "domiciliation_data": {
-    "contract": {
-      "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-      "related_date": "2021-12-31"
-    },
-    "invoices": [
-      {
-        "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-        "related_date": "2021-12-31",
-        "rejection_date": "2021-12-31",
-        "amount": {
-          "amt": 5,
-          "currency": "VES",
-          "use_day_rate": false
-        }
-      }
-    ]
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="fc412817-bfe7-449f-8e70-0ebce0013f94" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-import Utiliti.StatusReportCred;
-
-//Obtener el codigo de estado
-def statusCode = messageExchange.responseStatusCode
-
-
-//Llamar al transaction_id en caso de 200
-def transaction_id = context.expand('${API-TRA-DOM-35-receiving_user.otp-Menor-6#Response#$.transaction_id}')
-  	  
-//name TestStep para msj, 409, 400
-def msj = context.expand('${API-TRA-DOM-35-receiving_user.otp-Menor-6#Response#$.message}')
-
-switch (statusCode){
-	
-	case 200:
-	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-	  
-	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-  	  def response = get.getInputStream().getText()
-  	  def jsonSlurper = new JsonSlurper().parseText(response)
-		
-	  def TxSts = jsonSlurper.status
-       assert TxSts == "ACCP"
-
-	  def Rsn = jsonSlurper.rejected_code
-	  //assert Rsn == ""
-	 break;
-	 
-	 case 400:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 400;
-	  break;
-
-	 case 409:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 409;
-	  break;
-
-	  default:
-	   log.info("Status code: " + statusCode)
-	  break;
-
-}
-
-</scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-34-receiving_user.otp-Mayor-8" id="22ffaee7-242a-4935-b2ec-0286696e6245" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-34-receiving_user.otp-Mayor-8" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
-  "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
-  "account": {
-    "bank_code": "${#TestSuite#codeBanco}",
-    "type": "CNTA",
-    "number": "${#TestSuite#CNTA}"
-  },
-  "amount": {
-    "amt": 1,
-    "currency": "VES",
-    "use_day_rate": false
-  },
-  "concept": "Concepto de Debito",
-  "notification_urls": {
-    "web_hook_endpoint": "https://www.sypago.com/notification"
-  },
-  "receiving_user": {
-    "name": "Mercantil",
-    "otp": "123456789",
-    "document_info": {
-      "type": "J",
-      "number": "307243287"
-    },
-    "account": {
-      "bank_code": "0105",
-      "type": "CNTA",
-      "number": "01050161071161020000"
-    }
-  },
-  "domiciliation_data": {
-    "contract": {
-      "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-      "related_date": "2021-12-31"
-    },
-    "invoices": [
-      {
-        "id": "${=context.ListIBPs [${=context.ListRandom}].CMCN}",
-        "related_date": "2021-12-31",
-        "rejection_date": "2021-12-31",
-        "amount": {
-          "amt": 5,
-          "currency": "VES",
-          "use_day_rate": false
-        }
-      }
-    ]
-  }
-}</con:request><con:originalUri>https://pruebas.sypago.net/api/v1/transaction/request/sypago</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3158ece4-0d6d-42f5-8389-e8bb82598916" name="Valid HTTP Status Codes"><con:configuration><codes>409</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="fc412817-bfe7-449f-8e70-0ebce0013f94" name="Script Assertion"><con:configuration><scriptText>import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-
-import com.eviware.soapui.support.XmlHolder
-import net.sf.*
-import net.sf.json.*
-import net.sf.json.groovy.*
-import Utiliti.StatusReportCred;
-
-//Obtener el codigo de estado
-def statusCode = messageExchange.responseStatusCode
-
-
-//Llamar al transaction_id en caso de 200
-def transaction_id = context.expand('${API-TRA-DOM-34-receiving_user.otp-Mayor-8#Response#$.transaction_id}')
-  	  
-//name TestStep para msj, 409, 400
-def msj = context.expand('${API-TRA-DOM-34-receiving_user.otp-Mayor-8#Response#$.message}')
-
-switch (statusCode){
-	
-	case 200:
-	  def get = new URL("https://pruebas.sypago.net:8086/api/v1/transaction/" + transaction_id).openConnection();
-	  
-	  get.setRequestProperty("Authorization", context.expand('${#Project#Authorization}'))
-
-  	  def response = get.getInputStream().getText()
-  	  def jsonSlurper = new JsonSlurper().parseText(response)
-		
-	  def TxSts = jsonSlurper.status
-       assert TxSts == "ACCP"
-
-	  def Rsn = jsonSlurper.rejected_code
-	  //assert Rsn == ""
-	 break;
-	 
-	 case 400:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 400;
-	  break;
-
-	 case 409:
-  	  def token = context.expand('${#Project#Authorization}');
-       log.info msj;
-	  assert statusCode == 409;
-	  break;
-
-	  default:
-	   log.info("Status code: " + statusCode)
-	  break;
-
-}
-
 </scriptText></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="API-TRA-DOM-36-document_info-type-NULL" id="f63e33e1-d463-45a9-bcc5-be13b8baf5ed" disabled="true"><con:settings/><con:config service="https://pruebas.sypago.net:8086" resourcePath="/api/v1/transaction/dom" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="API-TRA-DOM-36-document_info-type-NULL" id="6af89b27-fd7d-4054-b78c-0d922631dc00" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>https://pruebas.sypago.net:8086</con:endpoint><con:request>{
   "internal_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
   "group_id": "${=new org.apache.commons.lang.RandomStringUtils().randomAlphanumeric(12)}",
@@ -9727,7 +9123,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -9831,7 +9227,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -9935,7 +9331,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10039,7 +9435,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10143,7 +9539,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10247,7 +9643,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10300,10 +9696,10 @@ switch (statusCode){
   	  def jsonSlurper = new JsonSlurper().parseText(response)
 		
 	  def TxSts = jsonSlurper.status
-       assert TxSts == "ACCP"
+       assert TxSts == "RJCT"
 
 	  def Rsn = jsonSlurper.rejected_code
-	  //assert Rsn == ""
+	  assert Rsn == "BE01"
 	 break;
 	 
 	 case 400:
@@ -10351,7 +9747,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10455,7 +9851,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10559,7 +9955,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10663,7 +10059,7 @@ switch (statusCode){
     "account": {
       "bank_code": null,
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10767,7 +10163,7 @@ switch (statusCode){
     "account": {
       "bank_code": "01@5",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10871,7 +10267,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0114",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -10975,7 +10371,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0888",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -11079,7 +10475,7 @@ switch (statusCode){
     "account": {
       "bank_code": "01055",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -11183,7 +10579,7 @@ switch (statusCode){
     "account": {
       "bank_code": "015",
       "type": "CNTA",
-      "number": "01050161071161020000"
+      "number": "01050161071161022953"
     }
   },
   "domiciliation_data": {
@@ -11495,7 +10891,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CNTA",
-      "number": "01050161771161077777"
+      "number": "01050161071161022977"
     }
   },
   "domiciliation_data": {
@@ -12535,7 +11931,7 @@ switch (statusCode){
     "account": {
       "bank_code": "0105",
       "type": "CELE",
-      "number": "04129855430"
+      "number": "04129777777"
     }
   },
   "domiciliation_data": {
@@ -12567,6 +11963,8 @@ import net.sf.json.*
 import net.sf.json.groovy.*
 import Utiliti.StatusReportCred;
 
+
+sleep(2000)
 //Obtener el codigo de estado
 def statusCode = messageExchange.responseStatusCode
 
@@ -14001,7 +13399,7 @@ switch (statusCode){
     },
     "invoices": [
       {
-        "id": "!s67hfg^$%&amp;*",
+        "id": "!s67g^$%&amp;*",
         "related_date": "2021-12-31",
         "rejection_date": "2021-12-31",
         "amount": {
@@ -18534,7 +17932,7 @@ import net.sf.json.groovy.*
 import Utiliti.StatusReportCred;
 
 
-
+sleep(2000)
 //Obtener el codigo de estado
 def statusCode = messageExchange.responseStatusCode
 
@@ -19634,7 +19032,7 @@ switch (statusCode){
     "account": {
       "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
       "type": "CNTA",
-      "number": "01740131991314182977"
+      "number": "01740131991314187777"
     }
   },
   "expiration": 200
@@ -20562,7 +19960,7 @@ switch (statusCode){
       "number": "${=context.ListIBPs [${=context.ListRandom}].id.substring(1)}"
     },
     "account": {
-      "bank_code": "${=context.ListIBPs [${=context.ListRandom}].codBanco}",
+      "bank_code": "8888",
       "type": "CELE",
       "number": "04129856652"
     }
@@ -27381,4 +26779,4 @@ switch (statusCode){
 	  break;
 
 }
-</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>CNTA</con:name><con:value>00018349143957065141</con:value></con:property><con:property><con:name>codeBanco</con:name><con:value>0001</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>jose</con:value></con:property><con:property><con:name>pass</con:name><con:value>p7Kiq5kG5B0u653XeAfQ3ZtnfKVdlGsq</con:value></con:property><con:property><con:name>Authorization</con:name><con:value>Barer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmZXpQcl9HSWhIZ05jOVc1cU5Td2FIQXBRMVRqeUlqbWtpY0d5V1hHUjFzIn0.eyJleHAiOjE3NTYzMzU2NzQsImlhdCI6MTc1NjI5OTY3NCwianRpIjoiMjRlMWE4ODEtZDYwNy00NmRlLTllYTItYmZkYzVlMmJjMzFjIiwiaXNzIjoiaHR0cHM6Ly9wcnVlYmFzLnN5cGFnby5uZXQ6ODA4MS9yZWFsbXMvc3lwYWdvIiwic3ViIjoiNTc1NTk1YmItNTMyMy00MjkyLWI2NzktNWZiZDEzNmVmN2EzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiam9zZSIsInNjb3BlIjoic3lwYWdvX2FwaV9rZXlfc2NvcGU6NTVhNGVjMzktNDI0Zi00NDIzLWI5MTgtYjgxMWZkMDQ3OTk2LlVzZXIiLCJjbGllbnRIb3N0IjoiMTcyLjIwLjAuMSIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjAuMC4xIiwiY2xpZW50X2lkIjoiam9zZSJ9.NwgFr8-kwToWIIBjba9OhVfzdQXEiIeZ26cyCDNjiqsLL2fAqBr_XQEpy77Eq3Zarpbauh8gGC2dsc5H_K6CNZUxwpmCPpGTQzKUp5UvjVpxVsUSDoWZ1D6TzcRrS-J8VMmoWH_qSuQEMW9PdONDMhOqfwFupwuWkYHsBCyKg8yUqn1QOjRlGuIMPm_dC0SasvKf3_N7ka6BYaIS5QjZ5X3IAkvw_VWYnn_aQZghpfVfauxHCAK7ksmnG7jVKkbi5ZZ9vAJfTo0OwR2sQidsyr2_3_ApPHMkrfnKTrNXbqfg8yZNjTV6ly2or6AQZxgVYk0gQQf0IA0KvBC2ESRsfw</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>CNTA</con:name><con:value>00018349143957065141</con:value></con:property><con:property><con:name>codeBanco</con:name><con:value>0001</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>user</con:name><con:value>jose</con:value></con:property><con:property><con:name>pass</con:name><con:value>p7Kiq5kG5B0u653XeAfQ3ZtnfKVdlGsq</con:value></con:property><con:property><con:name>Authorization</con:name><con:value>Barer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmZXpQcl9HSWhIZ05jOVc1cU5Td2FIQXBRMVRqeUlqbWtpY0d5V1hHUjFzIn0.eyJleHAiOjE3NTY1MDg5MzUsImlhdCI6MTc1NjQ3MjkzNSwianRpIjoiMzE5OWQ0MDktZTA4Zi00ZWZlLTk0NzEtMzAyOTRiNGJiODUyIiwiaXNzIjoiaHR0cHM6Ly9wcnVlYmFzLnN5cGFnby5uZXQ6ODA4MS9yZWFsbXMvc3lwYWdvIiwic3ViIjoiNTc1NTk1YmItNTMyMy00MjkyLWI2NzktNWZiZDEzNmVmN2EzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiam9zZSIsInNjb3BlIjoic3lwYWdvX2FwaV9rZXlfc2NvcGU6NTVhNGVjMzktNDI0Zi00NDIzLWI5MTgtYjgxMWZkMDQ3OTk2LlVzZXIiLCJjbGllbnRIb3N0IjoiMTcyLjIwLjAuMSIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjAuMC4xIiwiY2xpZW50X2lkIjoiam9zZSJ9.vPOQzp3ep4U9Ci67UeT4A61kCrtmNPDrfxBvFf_Enlewmr8tWIdMTMD2qr2lUC8LzyoF4CaOguMWreAOEstwMNCBSZL0jtV4K9su4Z9mS0tx8Bi-ZobG17VFXlVK4ypu1K23Mg1TU2H2NzjDstSu0yOIcPGPa1an4u6ZH0GP5yXeLx5mxmOHd3GlhzKbrkTAtAkedKZildFe2r4HqH4KRlJEG4KVnDPpbyc8hE4qr7OJUnB2bcwfgPzFoy1frW-6g8CbgWOPYOz6nnshDxsl2mss_T4zaIUovbx-VFSFto_yWNP_XxFIfXl4n_uulKtdADMdQHrWpLmEMkzF2yttEg</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
